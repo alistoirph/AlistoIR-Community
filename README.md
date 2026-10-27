@@ -1,2 +1,57 @@
-# AlistoIR-Community
-AlistoIR Community — Wazuh-focused AI-assisted security investigation platform. Private release preparation.
+# AlistoIR Community 3.0
+
+**Wazuh-focused, AI-assisted security investigation for self-hosted SOC labs and small teams.**
+
+This repository provides the installer download, documentation, and issue tracking. No application source tree is committed here; the installer contains the runtime files required by the application.
+
+## Download the testing release
+
+[Download 3.0.0-rc.1](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0-rc.1)
+
+Choose **`alistoir-community-v3.0.0-rc.1-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
+
+**Status: public testing prerelease, not a production-certified general release.** Start on a dedicated lab VM using synthetic or approved test data. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
+
+## Start here
+
+1. [Install on Ubuntu 24.04](docs/INSTALLATION.md).
+2. [Configure AlistoIR, AI, and autonomous investigations](docs/CONFIGURATION.md).
+3. [Connect Wazuh with the setup wizard](docs/WAZUH_SETUP.md).
+4. [Run the tester acceptance checklist](docs/TESTING.md).
+5. [Troubleshoot common problems](docs/TROUBLESHOOTING.md).
+
+## Included capabilities
+
+- Wazuh alert ingestion and supported evidence collection.
+- Autonomous investigation queues, configurable Rule IDs, findings and evidence gaps.
+- AI Copilot, timeline assistance and evidence-backed recommendations.
+- Case management and AI-generated tasks, subject to analyst review.
+- Playbooks with existing approval and safety controls.
+- Local IOC feed library and external threat-intelligence integrations.
+- Wazuh setup wizard with generated deployment files and a one-command installer.
+- Signed integrity checks for official protected policy/enforcement files.
+
+AI requires your own configured provider/infrastructure. Provider charges are not included. Collection support depends on the event, endpoint platform, available telemetry and permissions; unsupported or missing evidence can result in an inconclusive finding. AI recommendations are not guaranteed ground truth.
+
+## Community limits
+
+| Item | Limit |
+|---|---:|
+| Configured Wazuh managers | 1, including an environment-configured manager |
+| Active accounts | 5, including administrators |
+| Active playbooks | 5 |
+| Active unique, unexpired saved IOC feed indicators | 3,000 |
+
+Inactive accounts/playbooks and expired IOC indicators do not consume their respective active quotas. A disabled but still-configured Wazuh manager continues to occupy the manager slot. Alert, endpoint and investigation counts have no edition quota; practical capacity, API budgets and operational safeguards still apply.
+
+No paid activation is required. Community is Wazuh-only: other SIEM ingestion/configuration and the System Updates UI are unavailable.
+
+## Requirements
+
+Ubuntu Server 24.04 LTS x86-64, sudo/root access, static IP or stable hostname, and Internet access for Ubuntu packages. Start with **2 vCPUs, 4 GB RAM and 40 GB disk** for a lab; increase resources and storage for your workload. Configure a reachable Wazuh Manager API and Indexer for evidence collection.
+
+## Security and licensing
+
+Read [SECURITY.md](SECURITY.md), [licensing status](LICENSE_STATUS.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Public download availability does not itself make the application open source; an open-source license has not been selected for this prerelease.
+
+Report reproducible, sanitized bugs through [Issues](https://github.com/alistoirph/AlistoIR-Community/issues). Never attach passwords, tokens, `.env` files, deployment ZIPs containing ingest keys, or raw client/SOC evidence.

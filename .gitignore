@@ -1,0 +1,15 @@
+# Release binaries belong in GitHub Releases, not Git history.
+*.zip
+*.tar.gz
+*.tgz
+*.vdi
+*.vmdk
+.env
+.env.*
+*.key
+*.license
+*.pem
+*private-signing-key*
+community-release-authority/
+node_modules/
+__pycache__/
