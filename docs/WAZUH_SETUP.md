@@ -7,7 +7,7 @@ There are **two different ZIPs**:
 
 ## 1. Configure the connection
 
-As AlistoIR System Administrator, open **Wazuh Setup** (`/integrations/wazuh_setup`). Click **Configure Wazuh Manager & Indexer**, enter the addresses, credentials and manager key, then save and enable the connection. Community supports one configured manager, including any environment-configured connection. Editing the existing record is the normal way to change it.
+As AlistoIR System Administrator, open **Wazuh Setup** (`Admin -> Wazuh Setup`). Click **Configure Wazuh Manager & Indexer**, enter the addresses, credentials and manager key, then save and enable the connection. Community supports one configured manager, including any environment-configured connection. Editing the existing record is the normal way to change it.
 
 Use read-only API/Indexer permissions where practical for collection. Keep TLS verification enabled. Manager API authentication and Indexer evidence search permissions are tested separately.
 
