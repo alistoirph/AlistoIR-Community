@@ -2,7 +2,7 @@
 
 ## 1. Prepare a new VM
 
-Use Ubuntu Server 24.04 LTS x86-64 with 2 vCPUs, 4 GB RAM, at least 40 GB disk, a stable IP/hostname and Internet access. Use a dedicated lab VM; do not install over an existing AlistoIR deployment. The installer refuses an existing app directory/environment or a non-empty target database.
+Use Ubuntu Server 24.04 LTS x86-64 with at least 2 vCPUs, 4 GB RAM, 40 GB disk, a stable IP/hostname and Internet access. The installer refuses an existing app directory/environment or a non-empty target database.
 
 Network access:
 
