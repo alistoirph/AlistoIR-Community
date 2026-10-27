@@ -6,6 +6,10 @@ Use the generated administrator account, change its password and configure 2FA w
 
 ## Wazuh
 
+![Four separate connection paths: ingestion, Manager API, Indexer and AI provider](images/07-connection-readiness.png)
+
+*Illustration: verify each direction independently. API authentication, incoming alerts, evidence search and AI output are different readiness checks.*
+
 Open **Wazuh Setup**, or `/integrations/wazuh_setup`. Follow [the Wazuh guide](WAZUH_SETUP.md). Configure exactly one manager, its API and optional Indexer settings, trusted public CA certificates and the actual Wazuh source IP seen by AlistoIR. Credentials are stored through the application configuration interface; do not embed them in public scripts.
 
 Manager/Indexer access and incoming alert ingestion are separate directions. A successful API authentication test does not prove that the Wazuh forwarder is sending alerts.
@@ -17,6 +21,10 @@ Open **Integration Settings** (`/integrations/configuration`). Select a supporte
 Cloud providers may receive SOC evidence during AI workflows and may charge for usage. No AI subscription or credits are included. A configured key does not prove provider balance, permissions or availability. A provider quota/balance error must be resolved before verdict completion can be expected.
 
 ## Autonomous investigation
+
+![Autonomous Investigation Settings illustration showing selected rule IDs and the zero option for all eligible alerts](images/06-autonomous-settings.png)
+
+*Illustration: enable only after integrations are ready. Use your own numeric rule IDs, or `0` by itself for all eligible incoming alerts.*
 
 Open `/investigations/settings` as System Administrator:
 

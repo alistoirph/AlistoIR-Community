@@ -13,6 +13,10 @@ Use read-only API/Indexer permissions where practical for collection. Keep TLS v
 
 ### Wazuh Managers: field-by-field configuration
 
+![Illustration of the Wazuh Manager API and Indexer configuration fields](images/03-wazuh-manager-fields.png)
+
+*Illustration: example values, not a live screenshot. Match the API and Indexer sections to the fields below; supply your own private credentials.*
+
 Open `https://YOUR_ALISTOIR_HOST/integrations/wazuh_managers` as a System Administrator. Click **Add New Wazuh Manager**, or **Edit** if a manager already exists. Community supports one configured manager; edit that record rather than adding another.
 
 The following is an example for an all-in-one Wazuh server. Replace `WAZUH_HOST` with its reachable IP or hostname. Manager, Dashboard and Indexer can also run on different hosts.
@@ -44,6 +48,10 @@ Click **Test Connection** to check the Manager API, then **Save Manager**. Retur
 
 ## 2. Paste public CA certificates if needed
 
+![Certificate setup and expected successful API and Indexer test results](images/04-certificates-and-tests.png)
+
+*Illustration: save trusted public CA certificates, then test both connections. The green results show what success should look like; check your actual result.*
+
 Open the wizard's self-signed certificate section. Paste the Manager API public CA PEM and/or Indexer public CA PEM, then save. Do not paste private keys. Trust applies to this integration only. Confirm the certificate source/fingerprint through a trusted administrative channel before importing it.
 
 ## 3. Test the saved connections
@@ -51,6 +59,10 @@ Open the wizard's self-signed certificate section. Paste the Manager API public 
 Click **Test saved connections**. The Indexer check uses a size-zero match-none query and does not retrieve event content. If it fails, check routing, ports, TLS trust, credentials and permissions. It does not prove raw archive coverage or endpoint readiness.
 
 ## 4. Generate the deployment ZIP
+
+![Forwarder deployment illustration showing bundle generation on AlistoIR and installation on Wazuh](images/05-forwarder-deployment.png)
+
+*Illustration: generate the bundle in AlistoIR, then copy and install it on the Wazuh manager. The generated ZIP contains a secret ingest key.*
 
 Enter the Wazuh server's source IP as AlistoIR sees it. Account for NAT or a trusted reverse proxy. The wizard adds this IP to the existing ingest allowlist and generates a new manager-bound ingest key. It does not overwrite existing keys automatically.
 

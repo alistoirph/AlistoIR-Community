@@ -1,5 +1,9 @@
 # Installation — AlistoIR Community 3.0.0
 
+![Installation overview: prepare Ubuntu, download, verify, install, check services and sign in](images/01-installation-overview.png)
+
+*Illustration: the installation sequence. Run the copyable commands below directly on your Ubuntu VM.*
+
 ## 1. Prepare a new VM
 
 Use Ubuntu Server 24.04 LTS x86-64 with at least 2 vCPUs, 4 GB RAM, 40 GB disk, a stable IP/hostname and Internet access. The installer refuses an existing app directory/environment or a non-empty target database.
@@ -35,6 +39,10 @@ curl --fail --location --show-error --output SHA256SUMS.txt \
 Both downloads must finish successfully before continuing. These URLs download the installer asset and its checksum from [the official release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0). GitHub's automatically generated Source code archives contain documentation only.
 
 ## 3. Verify SHA-256 on the VM
+
+![Ubuntu terminal illustration showing the installer checksum reporting OK](images/02-download-and-verify.png)
+
+*Illustration: expected checksum result. URLs in the image are shortened; use the full download commands above.*
 
 From the same directory:
 
