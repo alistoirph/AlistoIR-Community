@@ -1,4 +1,4 @@
-# Installation — AlistoIR Community 3.0.0-rc.1
+# Installation — AlistoIR Community 3.0.0
 
 ## 1. Prepare a new VM
 
@@ -18,9 +18,9 @@ Port 80 provides an HTTPS redirect when reachable. Preserve normal Wazuh agent c
 
 ## 2. Download the actual installer
 
-Open [the release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0-rc.1). Download:
+Open [the release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0). Download:
 
-- `alistoir-community-v3.0.0-rc.1-one-click.zip`
+- `alistoir-community-v3.0.0-one-click.zip`
 - `SHA256SUMS.txt`
 
 The automatically generated GitHub Source code archives are documentation-only.
@@ -28,7 +28,7 @@ The automatically generated GitHub Source code archives are documentation-only.
 Optional GitHub CLI download:
 
 ```bash
-gh release download v3.0.0-rc.1 --repo alistoirph/AlistoIR-Community --pattern 'alistoir-community-v3.0.0-rc.1-one-click.zip' --pattern 'SHA256SUMS.txt'
+gh release download v3.0.0 --repo alistoirph/AlistoIR-Community --pattern 'alistoir-community-v3.0.0-one-click.zip' --pattern 'SHA256SUMS.txt'
 ```
 
 ## 3. Verify SHA-256 before installation
@@ -42,7 +42,7 @@ sha256sum -c SHA256SUMS.txt
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\alistoir-community-v3.0.0-rc.1-one-click.zip -Algorithm SHA256
+Get-FileHash .\alistoir-community-v3.0.0-one-click.zip -Algorithm SHA256
 Get-Content .\SHA256SUMS.txt
 ```
 
@@ -53,7 +53,7 @@ The hash must exactly match. Stop if it differs and re-download from the officia
 Replace `ubuntu` and `ALISTOIR_IP` with your VM's administrator account and address:
 
 ```powershell
-scp .\alistoir-community-v3.0.0-rc.1-one-click.zip ubuntu@ALISTOIR_IP:/home/ubuntu/
+scp .\alistoir-community-v3.0.0-one-click.zip ubuntu@ALISTOIR_IP:/home/ubuntu/
 ssh ubuntu@ALISTOIR_IP
 ```
 
@@ -64,11 +64,11 @@ sudo apt update
 sudo apt install -y unzip ca-certificates
 umask 077
 mkdir -p ~/alistoir-community-install
-unzip ~/alistoir-community-v3.0.0-rc.1-one-click.zip -d ~/alistoir-community-install
+unzip ~/alistoir-community-v3.0.0-one-click.zip -d ~/alistoir-community-install
 cd ~/alistoir-community-install/alistoir-community-v3.0.0-one-click
 ```
 
-The ZIP filename identifies RC1; its internal directory/core application version remains `3.0.0`.
+The ZIP filename, internal directory and core application version identify `3.0.0`.
 
 ## 5. Install
 

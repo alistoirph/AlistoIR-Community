@@ -52,4 +52,4 @@ Internal PHP, maintenance and test URLs returning 404 is an intentional security
 
 ## Recovery and upgrades
 
-This prerelease has no supported in-place Community System Updates UI. Back up the database (including triggers), private runtime and certificates before a maintainer-guided migration. These backups contain secrets/evidence: store them privately and never upload them to GitHub. Do not run the fresh installer over an existing deployment.
+This release has no supported in-place Community System Updates UI. Back up the database (including triggers), private runtime and certificates before a maintainer-guided migration. These backups contain secrets/evidence: store them privately and never upload them to GitHub. Do not run the fresh installer over an existing deployment.

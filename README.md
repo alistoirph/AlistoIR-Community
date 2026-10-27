@@ -4,13 +4,13 @@
 
 This repository provides the installer download, documentation, and issue tracking. No application source tree is committed here; the installer contains the runtime files required by the application.
 
-## Download the testing release
+## Download the official release
 
-[Download 3.0.0-rc.1](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0-rc.1)
+[Download 3.0.0](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0)
 
-Choose **`alistoir-community-v3.0.0-rc.1-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
+Choose **`alistoir-community-v3.0.0-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
 
-**Status: public testing prerelease, not a production-certified general release.** Start on a dedicated lab VM using synthetic or approved test data. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
+**Status: official Community 3.0.0 release.** Validate configuration and evidence collection in your environment before rollout. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
 
 ## Start here
 
@@ -52,6 +52,6 @@ Ubuntu Server 24.04 LTS x86-64, sudo/root access, static IP or stable hostname, 
 
 ## Security and licensing
 
-Read [SECURITY.md](SECURITY.md), [licensing status](LICENSE_STATUS.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Public download availability does not itself make the application open source; an open-source license has not been selected for this prerelease.
+Read [SECURITY.md](SECURITY.md), [licensing status](LICENSE_STATUS.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Public download availability does not itself make the application open source; an open-source license has not been selected for this release.
 
 Report reproducible, sanitized bugs through [Issues](https://github.com/alistoirph/AlistoIR-Community/issues). Never attach passwords, tokens, `.env` files, deployment ZIPs containing ingest keys, or raw client/SOC evidence.

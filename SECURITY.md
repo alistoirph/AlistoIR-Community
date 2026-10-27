@@ -2,7 +2,7 @@
 
 ## Testing release scope
 
-3.0.0-rc.1 is for evaluation in a dedicated lab. Do not assume that a passed automated test or signed package makes the entire application vulnerability-free. Keep the OS patched, restrict management access, use strong unique credentials/SSH keys and plan evidence retention.
+3.0.0 is the current official Community release. Do not assume that a passed automated test or signed package makes the entire application vulnerability-free. Keep the OS patched, restrict management access, use strong unique credentials/SSH keys and plan evidence retention.
 
 ## Controls included
 

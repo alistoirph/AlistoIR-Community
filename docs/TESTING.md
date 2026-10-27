@@ -48,4 +48,4 @@ Do not run volume, destructive, or tamper tests on production. Official protecte
 
 Open a sanitized issue with expected/actual behavior, exact steps, timestamps and relevant configuration choices without secret values. A service being active or a provider being configured is not proof of complete investigation readiness.
 
-There is no claimed production false-positive rate, missed-threat rate or calibrated verdict accuracy for this prerelease. Controlled fixture tests are not a representative production benchmark.
+There is no claimed production false-positive rate, missed-threat rate or calibrated verdict accuracy for this release. Controlled fixture tests are not a representative production benchmark.
