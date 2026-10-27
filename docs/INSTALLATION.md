@@ -16,59 +16,75 @@ Network access:
 
 Port 80 provides an HTTPS redirect when reachable. Preserve normal Wazuh agent connectivity separately. Do not expose management ports broadly just to complete setup.
 
-## 2. Download the actual installer
+## 2. Download directly on the Ubuntu VM
 
-Open [the release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0). Download:
-
-- `alistoir-community-v3.0.0-one-click.zip`
-- `SHA256SUMS.txt`
-
-The automatically generated GitHub Source code archives are documentation-only.
-
-Optional GitHub CLI download:
+Run these commands in the VM console or an SSH session on the VM. No Windows computer or GitHub login is required.
 
 ```bash
-gh release download v3.0.0 --repo alistoirph/AlistoIR-Community --pattern 'alistoir-community-v3.0.0-one-click.zip' --pattern 'SHA256SUMS.txt'
+sudo apt update
+sudo apt install -y curl unzip ca-certificates
+umask 077
+mkdir -p ~/alistoir-community-download
+cd ~/alistoir-community-download
+curl --fail --location --show-error --output alistoir-community-v3.0.0-one-click.zip \
+  https://github.com/alistoirph/AlistoIR-Community/releases/download/v3.0.0/alistoir-community-v3.0.0-one-click.zip
+curl --fail --location --show-error --output SHA256SUMS.txt \
+  https://github.com/alistoirph/AlistoIR-Community/releases/download/v3.0.0/SHA256SUMS.txt
 ```
 
-## 3. Verify SHA-256 before installation
+Both downloads must finish successfully before continuing. These URLs download the installer asset and its checksum from [the official release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0). GitHub's automatically generated Source code archives contain documentation only.
 
-Linux, from the download directory:
+## 3. Verify SHA-256 on the VM
+
+From the same directory:
 
 ```bash
 sha256sum -c SHA256SUMS.txt
 ```
 
-Windows PowerShell:
+Expect `alistoir-community-v3.0.0-one-click.zip: OK`. Stop if verification fails and re-download from the official release.
 
-```powershell
-Get-FileHash .\alistoir-community-v3.0.0-one-click.zip -Algorithm SHA256
-Get-Content .\SHA256SUMS.txt
-```
+## 4. Extract on the VM
 
-The hash must exactly match. Stop if it differs and re-download from the official release.
-
-## 4. Upload to Ubuntu and extract
-
-Replace `ubuntu` and `ALISTOIR_IP` with your VM's administrator account and address:
-
-```powershell
-scp .\alistoir-community-v3.0.0-one-click.zip ubuntu@ALISTOIR_IP:/home/ubuntu/
-ssh ubuntu@ALISTOIR_IP
-```
-
-On Ubuntu:
+Continue from `~/alistoir-community-download`:
 
 ```bash
-sudo apt update
-sudo apt install -y unzip ca-certificates
-umask 077
 mkdir -p ~/alistoir-community-install
-unzip ~/alistoir-community-v3.0.0-one-click.zip -d ~/alistoir-community-install
+unzip alistoir-community-v3.0.0-one-click.zip -d ~/alistoir-community-install
 cd ~/alistoir-community-install/alistoir-community-v3.0.0-one-click
 ```
 
 The ZIP filename, internal directory and core application version identify `3.0.0`.
+
+<details>
+<summary>Optional: download on Windows and copy to the VM</summary>
+
+If direct downloads from the VM are unavailable, download the installer ZIP and `SHA256SUMS.txt` from the official release on Windows. Replace `ubuntu` and `ALISTOIR_IP` with your VM account and address:
+
+```powershell
+scp .\alistoir-community-v3.0.0-one-click.zip .\SHA256SUMS.txt ubuntu@ALISTOIR_IP:/home/ubuntu/
+ssh ubuntu@ALISTOIR_IP
+```
+
+On the VM, install the tools, verify the copied archive and extract it:
+
+```bash
+sudo apt update
+sudo apt install -y unzip ca-certificates
+cd ~
+sha256sum -c SHA256SUMS.txt
+```
+
+Continue only after the checksum reports `OK`:
+
+```bash
+umask 077
+mkdir -p ~/alistoir-community-install
+unzip alistoir-community-v3.0.0-one-click.zip -d ~/alistoir-community-install
+cd ~/alistoir-community-install/alistoir-community-v3.0.0-one-click
+```
+
+</details>
 
 ## 5. Install
 
