@@ -24,6 +24,10 @@ See [AI privacy scope and limitations](docs/AI_PRIVACY.md). Sanitization is data
 
 Read [release notes and validation limits](docs/RELEASE_NOTES.md) before installing. The ZIP is for a fresh installation; existing deployments require a backed-up upgrade procedure.
 
+## Documentation
+
+Open the [documentation folder](documentation/README.md) or read the [Investigation Center guide for analysts and clients](documentation/INVESTIGATION_CENTER.md).
+
 ## Start here
 
 1. [Install on Ubuntu 24.04](docs/INSTALLATION.md).
