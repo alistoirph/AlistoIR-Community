@@ -1,5 +1,7 @@
 # Dashboard — complete analyst and client guide
 
+![Illustration of autonomous investigation settings and Rule ID selection](../docs/images/06-autonomous-settings.png)
+
 Page: `/dashboard/index` on your AlistoIR server. Applies to AlistoIR Community 3.0.3. Some infrastructure sections require platform-level permissions and will not appear for every account.
 
 ## What the dashboard is for
