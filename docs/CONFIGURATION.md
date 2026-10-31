@@ -26,6 +26,8 @@ Cloud providers may receive SOC evidence during AI workflows and may charge for 
 
 *Illustration: enable only after integrations are ready. Use your own numeric rule IDs, or `0` by itself for all eligible incoming alerts.*
 
+Read the [Autonomous Investigation Settings guide](../documentation/INVESTIGATION_SETTINGS.md) for detailed controls, pause/resume behavior and examples.
+
 Open `/investigations/settings` as System Administrator:
 
 1. Configure and validate Wazuh/Indexer/endpoint integrations first.

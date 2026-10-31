@@ -46,7 +46,7 @@ This diagram describes the workflow, not a promise that every collection source 
 4. Select a summary card or use the State and search filters.
 5. Open an investigation using its `INV-...` link.
 
-A System Administrator can open **Autonomous investigation settings**. An analyst does not need to edit those settings simply to review an existing investigation.
+A System Administrator can open **Autonomous investigation settings**. See the [settings guide](INVESTIGATION_SETTINGS.md) for switch behavior and Rule ID examples. An analyst does not need to edit those settings simply to review an existing investigation.
 
 ### Understand the summary cards
 

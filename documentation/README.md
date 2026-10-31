@@ -5,6 +5,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 | Guide | Who it is for | What you will learn |
 |---|---|---|
 | [Investigation Center](INVESTIGATION_CENTER.md) | Analysts and clients | Understand the workspace, follow evidence collection, interpret recommendations and record an analyst decision. |
+| [Autonomous Investigation Settings](INVESTIGATION_SETTINGS.md) | System Administrators | Enable or pause automatic work, select Rule IDs and understand scope changes. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |
 | [Configuration](../docs/CONFIGURATION.md) | Administrators | Configure accounts, integrations and automatic investigation scope. |
 | [Wazuh setup](../docs/WAZUH_SETUP.md) | Administrators | Connect the Manager API, Indexer and alert forwarder. |
