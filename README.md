@@ -6,11 +6,20 @@ This repository provides the installer download, documentation, and issue tracki
 
 ## Download the official release
 
-[Download 3.0.0](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.0)
+[Download 3.0.2](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.2)
 
-Choose **`alistoir-community-v3.0.0-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
+Choose **`alistoir-community-v3.0.2-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
 
-**Status: official Community 3.0.0 release.** Validate configuration and evidence collection in your environment before rollout. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
+**Status: official Community 3.0.2 release.** Validate configuration and evidence collection in your environment before rollout. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
+
+## What is new in 3.0.2
+
+- Mandatory control-flow obfuscation for eligible first-party PHP; a required protection failure stops the build instead of shipping readable fallback.
+- 218 PHP files obfuscated, with template/vendor/declarative exceptions documented in [Source protection](docs/SOURCE_PROTECTION.md).
+- The complete 468-file immutable Community inventory is signed after obfuscation. Added, missing or changed code blocks protected operations.
+- AI code-edit/arbitrary-shell requests are denied by the investigation tool boundary; root-owned application code remains read-only to the web-service account.
+
+Read [release notes and validation limits](docs/RELEASE_NOTES.md) before installing. The ZIP is for a fresh installation; existing deployments require a backed-up upgrade procedure.
 
 ## Start here
 

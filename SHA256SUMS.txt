@@ -1,1 +1,1 @@
-16efee6289cf80a712c1e37421270f8087cd2188078b5a07e1bc5b394b27206a  alistoir-community-v3.0.0-one-click.zip
+cc67cb28f4843da9c085fd28f484dadf130711f910f757085ce451d4ecb77e66  alistoir-community-v3.0.2-one-click.zip
