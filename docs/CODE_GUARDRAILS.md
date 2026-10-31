@@ -1,4 +1,4 @@
-# Community 3.0.2 â€” code-integrity and AI guardrails
+# Community 3.0.2 code-integrity and AI guardrails
 
 ## What is enforced
 
