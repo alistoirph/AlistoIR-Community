@@ -1,4 +1,4 @@
-# AlistoIR Community 3.0.3
+# AlistoIR Community 3.0
 
 **Wazuh-focused, AI-assisted security investigation for self-hosted SOC labs and small teams.**
 
