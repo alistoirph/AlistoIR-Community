@@ -1,3 +1,26 @@
+# AlistoIR Community 3.0.3
+
+Official maintenance release, 31 October 2026.
+
+## What's new
+
+A mandatory outbound privacy gate now covers AIService requests to OpenAI, Anthropic, DeepSeek and configured local endpoints. It withholds recognized secrets, nested credential objects, identified raw logs and notes; pseudonymizes recognized identities, emails, IP addresses, domains and common absolute paths; and sanitizes JSON snapshots embedded in legacy prompts. Evidence references, technical field names, MITRE techniques, rule IDs and common hashes remain available. Aliases remain stable during repeated sanitization within the service context, and alias maps are not transmitted or logged.
+
+The AI is instructed to explain privacy-related evidence gaps and avoid treating aliases as actionable IOCs. Invalid UTF-8, excessive nesting, unsupported message content and serialization failures block requests. Provider credentials remain in required authentication headers. See [AI_PRIVACY.md](AI_PRIVACY.md) for limitations: this is data minimization, not a guarantee of complete DLP or verdict accuracy. Threat-intelligence API lookups are outside this LLM boundary.
+
+## Validation
+
+- Both final protected editions passed 34 synthetic privacy checks and the existing investigation, settings, adaptive planning, reasoning, coverage, verdict safeguard, worker recovery, endpoint recommendation, collection-health and Wazuh wizard suites.
+- Mock tests exercised all four actual provider transports: sanitized bodies, authentication retained and invalid content prevented from reaching execution. No actual provider requests or customer evidence were used.
+- 33 source-protection checks passed without readable fallback. Community passed 12 signed-integrity checks, 50 Windows guardrail checks and 51 Linux guardrail checks, plus Linux privacy checks. The reference deployment passed signature/ownership checks and HTTPS login validation.
+- The Community payload contains 362 PHP files, including 219 obfuscated files, with 469 immutable files signed. See [SOURCE_PROTECTION.md](SOURCE_PROTECTION.md) for deliberate exceptions.
+
+## Download and installation
+
+Download **alistoir-community-v3.0.3-one-click.zip** and **SHA256SUMS.txt** from the release assets. GitHub's automatic Source code archives contain this documentation repository, not the installer. Follow [INSTALLATION.md](INSTALLATION.md) for direct Ubuntu downloads. The installer is for fresh installations; existing deployments need a backed-up upgrade procedure. Do not run the fresh installer over an existing database.
+
+---
+
 # AlistoIR Community 3.0.2
 
 Official maintenance release, 31 October 2026.

@@ -6,18 +6,21 @@ This repository provides the installer download, documentation, and issue tracki
 
 ## Download the official release
 
-[Download 3.0.2](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.2)
+[Download 3.0.3](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.3)
 
-Choose **`alistoir-community-v3.0.2-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
+Choose **`alistoir-community-v3.0.3-one-click.zip`** under Assets and download **`SHA256SUMS.txt`**. Do not use GitHub's automatic **Source code (zip)** archive: it contains this documentation repository, not the installer.
 
-**Status: official Community 3.0.2 release.** Validate configuration and evidence collection in your environment before rollout. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
+**Status: official Community 3.0.3 release.** Validate configuration and evidence collection in your environment before rollout. Validation evidence and remaining limits are recorded in [Release notes](docs/RELEASE_NOTES.md).
 
-## What is new in 3.0.2
+## What is new in 3.0.3
 
-- Mandatory control-flow obfuscation for eligible first-party PHP; a required protection failure stops the build instead of shipping readable fallback.
-- 218 PHP files obfuscated, with template/vendor/declarative exceptions documented in [Source protection](docs/SOURCE_PROTECTION.md).
-- The complete 468-file immutable Community inventory is signed after obfuscation. Added, missing or changed code blocks protected operations.
-- AI code-edit/arbitrary-shell requests are denied by the investigation tool boundary; root-owned application code remains read-only to the web-service account.
+- Mandatory outbound privacy sanitization for OpenAI, Anthropic, DeepSeek and configured local AI endpoints.
+- Recognized credentials are withheld; identities, email addresses, IP addresses and domains receive aliases. Identified raw logs and notes are withheld.
+- Evidence references, technical JSON fields, rule IDs, MITRE techniques and common hashes remain available for investigation.
+- Invalid or unsupported content blocks the AI request. Privacy gaps must remain visible in the model's assessment.
+- Existing source protection, signed integrity checks and investigation tool restrictions remain enabled: 219 PHP files obfuscated and 469 immutable files signed.
+
+See [AI privacy scope and limitations](docs/AI_PRIVACY.md). Sanitization is data minimization and cannot guarantee recognition of every sensitive detail in arbitrary text.
 
 Read [release notes and validation limits](docs/RELEASE_NOTES.md) before installing. The ZIP is for a fresh installation; existing deployments require a backed-up upgrade procedure.
 

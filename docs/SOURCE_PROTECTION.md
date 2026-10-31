@@ -1,4 +1,4 @@
-# Source protection maintenance build 3.0.2
+# Source protection maintenance build 3.0.3
 
 Official Community and Professional build pipelines now require the configured PHP control-flow obfuscator to complete successfully. A required failure aborts the build; there is no stripped-source fallback for required application logic. Critical license, AI service, autonomous agent and investigation files must contain real PHP control-flow protection and pass syntax checks. Community also requires protection of its integrity verifier.
 

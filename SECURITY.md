@@ -2,7 +2,7 @@
 
 ## Release scope
 
-3.0.2 is the current official Community release. Do not assume that a passed automated test or signed package makes the entire application vulnerability-free. Keep the OS patched, restrict management access, use strong unique credentials/SSH keys and plan evidence retention.
+3.0.3 is the current official Community release. Do not assume that a passed automated test or signed package makes the entire application vulnerability-free. Keep the OS patched, restrict management access, use strong unique credentials/SSH keys and plan evidence retention.
 
 ## Controls included
 
@@ -13,7 +13,7 @@
 - Server-side Community quota enforcement and signed integrity checks for official protected files.
 - Private runtime configuration outside the web root.
 
-The 3.0.2 signed inventory detects modified, missing, added and symlink-substituted immutable application files. Source obfuscation is an additional control with explicit exceptions; see [source protection](docs/SOURCE_PROTECTION.md) and [guardrails](docs/CODE_GUARDRAILS.md). A root/source owner can remove checks or alter database controls. This is not unbreakable licensing and does not protect arbitrary OS files.
+The 3.0.3 signed inventory detects modified, missing, added and symlink-substituted immutable application files. Source obfuscation is an additional control with explicit exceptions; see [source protection](docs/SOURCE_PROTECTION.md) and [guardrails](docs/CODE_GUARDRAILS.md). A root/source owner can remove checks or alter database controls. This is not unbreakable licensing and does not protect arbitrary OS files.
 
 ## Report a vulnerability
 

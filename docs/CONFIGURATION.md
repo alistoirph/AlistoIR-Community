@@ -70,3 +70,7 @@ Use your actual approved origin/certificate path, not this example. Private-orig
 Protected policy/enforcement files are signed. Editing them causes protected writes to fail with **Integrity validation failed**. Restore matched official files and manifest; do not disable the verifier to troubleshoot. Runtime settings such as supported integration configuration belong in the UI/private environment, not edits to protected PHP files.
 
 A root/source owner can remove checks. This is tamper detection, not unbreakable licensing or a substitute for secure server administration.
+
+## Outbound AI privacy
+
+Version 3.0.3 applies a mandatory privacy boundary to all AIService providers, including configured local endpoints. See [AI_PRIVACY.md](AI_PRIVACY.md) for withheld fields, aliases, evidence gaps and limitations. Provider authentication headers remain necessary; threat-intelligence API lookups are separate.

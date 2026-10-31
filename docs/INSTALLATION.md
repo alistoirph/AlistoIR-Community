@@ -1,4 +1,4 @@
-# Installation — AlistoIR Community 3.0.2
+# Installation — AlistoIR Community 3.0.3
 
 ![Installation overview: prepare Ubuntu, download, verify, install, check services and sign in](images/01-installation-overview.png)
 
@@ -30,13 +30,13 @@ sudo apt install -y curl unzip ca-certificates
 umask 077
 mkdir -p ~/alistoir-community-download
 cd ~/alistoir-community-download
-curl --fail --location --show-error --output alistoir-community-v3.0.2-one-click.zip \
-  https://github.com/alistoirph/AlistoIR-Community/releases/download/v3.0.2/alistoir-community-v3.0.2-one-click.zip
+curl --fail --location --show-error --output alistoir-community-v3.0.3-one-click.zip \
+  https://github.com/alistoirph/AlistoIR-Community/releases/download/v3.0.3/alistoir-community-v3.0.3-one-click.zip
 curl --fail --location --show-error --output SHA256SUMS.txt \
-  https://github.com/alistoirph/AlistoIR-Community/releases/download/v3.0.2/SHA256SUMS.txt
+  https://github.com/alistoirph/AlistoIR-Community/releases/download/v3.0.3/SHA256SUMS.txt
 ```
 
-Both downloads must finish successfully before continuing. These URLs download the installer asset and its checksum from [the official release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.2). GitHub's automatically generated Source code archives contain documentation only.
+Both downloads must finish successfully before continuing. These URLs download the installer asset and its checksum from [the official release](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.3). GitHub's automatically generated Source code archives contain documentation only.
 
 ## 3. Verify SHA-256 on the VM
 
@@ -50,7 +50,7 @@ From the same directory:
 sha256sum -c SHA256SUMS.txt
 ```
 
-Expect `alistoir-community-v3.0.2-one-click.zip: OK`. Stop if verification fails and re-download from the official release.
+Expect `alistoir-community-v3.0.3-one-click.zip: OK`. Stop if verification fails and re-download from the official release.
 
 ## 4. Extract on the VM
 
@@ -58,11 +58,11 @@ Continue from `~/alistoir-community-download`:
 
 ```bash
 mkdir -p ~/alistoir-community-install
-unzip alistoir-community-v3.0.2-one-click.zip -d ~/alistoir-community-install
-cd ~/alistoir-community-install/alistoir-community-v3.0.2-one-click
+unzip alistoir-community-v3.0.3-one-click.zip -d ~/alistoir-community-install
+cd ~/alistoir-community-install/alistoir-community-v3.0.3-one-click
 ```
 
-The ZIP filename, internal directory and core application version identify `3.0.2`.
+The ZIP filename, internal directory and core application version identify `3.0.3`.
 
 <details>
 <summary>Optional: download on Windows and copy to the VM</summary>
@@ -70,7 +70,7 @@ The ZIP filename, internal directory and core application version identify `3.0.
 If direct downloads from the VM are unavailable, download the installer ZIP and `SHA256SUMS.txt` from the official release on Windows. Replace `ubuntu` and `ALISTOIR_IP` with your VM account and address:
 
 ```powershell
-scp .\alistoir-community-v3.0.2-one-click.zip .\SHA256SUMS.txt ubuntu@ALISTOIR_IP:/home/ubuntu/
+scp .\alistoir-community-v3.0.3-one-click.zip .\SHA256SUMS.txt ubuntu@ALISTOIR_IP:/home/ubuntu/
 ssh ubuntu@ALISTOIR_IP
 ```
 
@@ -88,8 +88,8 @@ Continue only after the checksum reports `OK`:
 ```bash
 umask 077
 mkdir -p ~/alistoir-community-install
-unzip alistoir-community-v3.0.2-one-click.zip -d ~/alistoir-community-install
-cd ~/alistoir-community-install/alistoir-community-v3.0.2-one-click
+unzip alistoir-community-v3.0.3-one-click.zip -d ~/alistoir-community-install
+cd ~/alistoir-community-install/alistoir-community-v3.0.3-one-click
 ```
 
 </details>
