@@ -4,6 +4,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 
 | Guide | Who it is for | What you will learn |
 |---|---|---|
+| [Dashboard](DASHBOARD.md) | Analysts, clients and administrators | Understand every dashboard section, metric, chart, drill-down and interpretation limit. |
 | [Investigation Center](INVESTIGATION_CENTER.md) | Analysts and clients | Understand the workspace, follow evidence collection, interpret recommendations and record an analyst decision. |
 | [Autonomous Investigation Settings](INVESTIGATION_SETTINGS.md) | System Administrators | Enable or pause automatic work, select Rule IDs and understand scope changes. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |

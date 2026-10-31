@@ -28,6 +28,8 @@ Read [release notes and validation limits](docs/RELEASE_NOTES.md) before install
 
 Open the [documentation folder](documentation/README.md) or read the [Investigation Center guide for analysts and clients](documentation/INVESTIGATION_CENTER.md).
 
+Read the [complete Dashboard guide](documentation/DASHBOARD.md) for metric definitions, charts, workload monitoring and platform-health indicators.
+
 ## Start here
 
 1. [Install on Ubuntu 24.04](docs/INSTALLATION.md).
