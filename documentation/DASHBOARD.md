@@ -50,6 +50,26 @@ Missing geolocation, private addresses and records without suitable source data 
 
 IP geolocation describes an apparent network location, not a verified attacker identity or physical origin. Hosting providers, VPNs, proxies and shared infrastructure can affect interpretation. An empty map does not mean there were no alerts or attacks.
 
+### Color coding: map markers and hotspot dots
+
+The colors show **the highest recorded alert severity represented by that source or country**, not a country risk rating or a confirmed attacker verdict.
+
+| Color | Severity | Map marker | Hotspot dot | How to interpret it |
+|---|---|---|---|---|
+| 🔴 Red | Critical | `#da3633` | `#da3633` | At least one represented alert has Critical severity. Prioritize review of its evidence. |
+| 🟠 Orange | High | `#f0883e` | `#f0883e` | The highest represented severity is High. |
+| 🟡 Yellow | Medium | `#e3b341` | `#e3b341` | The highest represented severity is Medium. |
+| 🟢 Green | Low | `#2ea043` | `#2ea043` | The highest represented severity is Low. This does not establish that the source is safe. |
+| Gray | Unknown / unrecognized | `#8b949e` | `#6b7280` | No recognized severity is available for the represented data. Treat this as missing classification, not Low. |
+
+For a map marker, the severity is aggregated for that source IP. For a Source Hotspots country row, the dot uses the highest severity among the represented source points. A country with many Low alerts and one Critical alert can therefore show a red dot. That does not make every alert or every source from that country Critical.
+
+**Color and volume are different:** marker size increases with the represented alert count, with a minimum and maximum visual size. Larger markers indicate more represented alerts, not greater confidence of compromise. The pulsing rings are a visual animation; they do not show live packet traffic or prove that an attack is still running.
+
+Select a map marker to inspect its popup: source IP, available city/region/country, alert count, severity, ISP, Last Seen and available AbuseIPDB or VirusTotal scores. Those reputation scores are separate from the severity color. Use the recorded time and underlying alerts to determine whether activity is recent and relevant.
+
+A high-volume hotspot and a high-severity hotspot are different prioritization signals. Review both the count and the color, then inspect the actual alerts. These colors describe this map and hotspot section; other dashboard charts may use their own palette.
+
 ### Source Hotspots
 
 Countries are ranked using alert-generating source data. Each row shows the country, number of source IPs, alert count and a severity indicator based on the highest represented severity. Select a row to inspect the country-alert dialog; use its alert links for triage.
