@@ -1,5 +1,7 @@
 # Assets / CMDB — analyst and administrator guide
 
+![Assets CMDB](../docs/images/source/Assets-CMDB.png)
+
 Page: `/cmdb/index` on your AlistoIR server. Applies to Community 3.0.3. Add, Edit and Import require CMDB management permission; read-only users will not see every control.
 
 ## What is the CMDB?
