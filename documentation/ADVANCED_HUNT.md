@@ -1,5 +1,7 @@
 # Advanced Hunt — multi-filter analyst guide
 
+![Advance Hunt Filter](../docs/images/source/Advance-Hunt-Filter.png)
+
 Page: `/hunt/multi-filter`. Applies to AlistoIR Community 3.0.3. Availability depends on your role and deployment access settings.
 
 Advanced Hunt combines conditions to search **alerts already stored in AlistoIR**. Use it when one indicator is insufficient: for example, successful remote logons from a particular source, or high-severity alerts involving a specific program and account.
