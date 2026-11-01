@@ -1,0 +1,3 @@
+asset_name,hostname,fqdn,ip_address,mac_address,wazuh_agent_id,os_name,asset_type,environment,business_unit,owner_name,owner_email,data_classification,criticality,exposure,location,status,tags,notes,last_seen_at
+DEMO Web Server,demo-web-01,demo-web-01.example.invalid,192.0.2.10,,,Ubuntu,server,Lab,Demo Operations,Demo Owner,owner@example.invalid,Internal,high,external,Demo Lab,unverified,"demo,web",Fictional sample. Replace values before import.,
+DEMO Workstation,demo-client-01,demo-client-01.example.invalid,192.0.2.20,,,Windows,endpoint,Lab,Demo Support,Demo Owner,owner@example.invalid,Internal,medium,internal,Demo Lab,unverified,"demo,workstation",Fictional sample. Replace values before import.,

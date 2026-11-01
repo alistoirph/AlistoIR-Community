@@ -346,3 +346,5 @@ Continue with [Alerts](ALERTS.md), [Investigation Center](INVESTIGATION_CENTER.m
 Read the [Investigate Logs guide](INVESTIGATE_LOGS.md) for exact pivot matching, time-window semantics, result limits and Wazuh console shortcuts.
 
 For the separate Indexer collection/report workflow, read [Collect Wazuh Evidence and Analyze with AI](WAZUH_AI_INVESTIGATION.md).
+
+For asset identity, ownership, matching and inventory imports, read the [Assets / CMDB guide](CMDB.md).

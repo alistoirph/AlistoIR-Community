@@ -11,6 +11,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 | [Wazuh Evidence and AI Investigation](WAZUH_AI_INVESTIGATION.md) | Analysts and clients | Collect bounded Indexer evidence, inspect query audits and interpret AI reports and limitations. |
 | [Investigation Center](INVESTIGATION_CENTER.md) | Analysts and clients | Understand the workspace, follow evidence collection, interpret recommendations and record an analyst decision. |
 | [Autonomous Investigation Settings](INVESTIGATION_SETTINGS.md) | System Administrators | Enable or pause automatic work, select Rule IDs and understand scope changes. |
+| [Assets / CMDB](CMDB.md) | Analysts and administrators | Manage asset identity/business context, understand matching and colors, and import inventory safely. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |
 | [Configuration](../docs/CONFIGURATION.md) | Administrators | Configure accounts, integrations and automatic investigation scope. |
 | [Wazuh setup](../docs/WAZUH_SETUP.md) | Administrators | Connect the Manager API, Indexer and alert forwarder. |
