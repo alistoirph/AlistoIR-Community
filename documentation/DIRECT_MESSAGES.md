@@ -1,5 +1,7 @@
 # Direct Messages — one-to-one collaboration guide
 
+![Direct Message](../docs/images/source/Direct-Message.png)
+
 Applies to AlistoIR Community 3.0.3. Open **Direct Messages** from the header's chat icon, or select **DM** beside an eligible user in [Analyst Chat](CHAT.md).
 
 ## What are Direct Messages?
