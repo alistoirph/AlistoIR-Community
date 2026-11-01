@@ -202,3 +202,5 @@ The center's bounded tables have no full-history pagination here: Generated Repo
 Before client delivery, confirm audience, dates/timezone, case references, explicit verdicts, evidence limitations and sensitive content. Preserve the exact exported artifact when an audit requires a fixed version.
 
 Related guides: [Dashboard](DASHBOARD.md), [Alerts](ALERTS.md), [Alert View](ALERT_VIEW.md), [Investigation Center](INVESTIGATION_CENTER.md), [Threat Hunting](THREAT_HUNTING.md) and [Troubleshooting](../docs/TROUBLESHOOTING.md).
+
+For alert/case timer definitions and daily deadline monitoring, see [SLA Monitoring](SLA.md).

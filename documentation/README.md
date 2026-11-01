@@ -18,6 +18,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 | [Threat Intelligence Hub / IOC Manager](THREAT_INTELLIGENCE.md) | Managers and analysts with access | Understand local intelligence, trust exceptions, feeds, matching, refresh, export and the 3,000-active-IOC limit. |
 | [Threat Hunting](THREAT_HUNTING.md) | Analysts and managers | Search local alerts and linked observables, understand regex limits, interpret results and manage hunt completion/exports. |
 | [Advanced Hunt / Multi-Filter](ADVANCED_HUNT.md) | Analysts and managers | Build nested filters, use quick/manual queries and AI helpers, save searches and interpret bounded results. |
+| [SLA Monitoring](SLA.md) | Analysts and managers | Monitor alert/case deadlines, understand timers, filters, compliance formulas, reporting and coverage limits. |
 | [Reports / Report Center](REPORTS.md) | Managers and administrators | Generate case/posture reports, understand KPI date bases, analyst audit, SLA, downloads and reporting limits. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |
 | [Configuration](../docs/CONFIGURATION.md) | Administrators | Configure accounts, integrations and automatic investigation scope. |
