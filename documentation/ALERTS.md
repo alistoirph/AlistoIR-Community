@@ -1,5 +1,7 @@
 # Alerts — analyst and client guide
 
+![Autonomous Investigation Settings](../docs/images/source/Alerts.png)
+
 Page: `/alerts/index` on your AlistoIR server. Applies to Community 3.0.3. Actions depend on your role, the alert's status and access permissions.
 
 ## What is this page for?
