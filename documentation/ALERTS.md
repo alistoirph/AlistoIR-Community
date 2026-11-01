@@ -247,3 +247,5 @@ For clients, explain the alert volume, triage state, evidence-supported conclusi
 | Status change stops further automatic investigation | Analyst disposition can affect collection eligibility. Review the run and remaining tasks in Investigation Center. |
 
 Continue with [Dashboard](DASHBOARD.md), [Investigation Center](INVESTIGATION_CENTER.md), [Investigation Settings](INVESTIGATION_SETTINGS.md), [Configuration](../docs/CONFIGURATION.md) or [Troubleshooting](../docs/TROUBLESHOOTING.md).
+
+For every panel and action inside an alert, read the [complete Alert View guide](ALERT_VIEW.md).
