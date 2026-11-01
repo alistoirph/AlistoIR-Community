@@ -1,6 +1,6 @@
 # Autonomous Investigation Settings — administrator guide
 
-![Investigation Center](../docs/images/source/Investigation-Center.png)
+![Autonomous Investigation Settings](../docs/images/source/Autonomous-Investigation-Settings.png)
 
 Page: `/investigations/settings` on your AlistoIR server. Applies to Community 3.0.3.
 
