@@ -1,5 +1,7 @@
 # Investigate Logs — analyst and client guide
 
+![Alerts View](../docs/images/source/Alerts-View.png)
+
 Page: `/alerts/investigate_logs` with an existing alert reference. Applies to AlistoIR Community 3.0.3. Open **Investigate Logs** or an IP's **Logs** shortcut from [Alert View](ALERT_VIEW.md).
 
 ## What does this page do?
