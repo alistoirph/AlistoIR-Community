@@ -1,5 +1,7 @@
 # SLA Monitoring — analyst and manager guide
 
+![SLA Monitoring](../docs/images/source/SLA-Monitoring.png)
+
 Page: `/sla/index`. Applies to AlistoIR Community 3.0.3. Sign-in, access scope and applicable deployment feature permissions determine availability.
 
 SLA means **Service Level Agreement**: the configured time targets for handling an alert or case. This workspace helps the SOC identify overdue work, approaching deadlines and missing ownership. It has two tabs: **Alert SLA** (the default) and **Case SLA**.
