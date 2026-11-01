@@ -1,5 +1,7 @@
 # User Management — administrator guide
 
+![User Management](../docs/images/source/User-Management.png)
+
 Page: `/users/index`. Applies to AlistoIR Community 3.0.3. User management requires an authorized administrator account; ordinary SOC Analyst, SOC Manager and Viewer accounts should not assume access to this administration page.
 
 Use this page to create accounts, edit identity/role/status, configure supported agent-group restrictions, change passwords, toggle existing two-factor authentication and delete accounts. It does not create endpoint/Wazuh agent accounts or configure the external AI provider.
