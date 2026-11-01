@@ -190,3 +190,5 @@ This is a snapshot loaded for the selected scope/window; the page has no investi
 Queries and console URLs can contain internal hosts, IPs and detection context. Copying a query or following a console link does not apply the external-AI sanitizer. Share only sanitized references through approved channels.
 
 Continue with [Alert View](ALERT_VIEW.md), [Alerts](ALERTS.md), [Investigation Center](INVESTIGATION_CENTER.md), [Wazuh setup](../docs/WAZUH_SETUP.md) or [Troubleshooting](../docs/TROUBLESHOOTING.md).
+
+For the separate Indexer collection/report workflow, read [Collect Wazuh Evidence and Analyze with AI](WAZUH_AI_INVESTIGATION.md).

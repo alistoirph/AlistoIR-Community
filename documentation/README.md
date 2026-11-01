@@ -8,6 +8,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 | [Alerts](ALERTS.md) | Analysts and clients | Search and triage alerts, interpret badges, review ownership/SLA, and use permitted actions and exports. |
 | [Alert View](ALERT_VIEW.md) | Analysts and clients | Understand evidence, AI tools, SLA, endpoint collection, case history and response workflows. |
 | [Investigate Logs](INVESTIGATE_LOGS.md) | Analysts and clients | Correlate ingested alerts by endpoint, IP or rule, understand symmetric time windows, and pivot to Wazuh Dashboard. |
+| [Wazuh Evidence and AI Investigation](WAZUH_AI_INVESTIGATION.md) | Analysts and clients | Collect bounded Indexer evidence, inspect query audits and interpret AI reports and limitations. |
 | [Investigation Center](INVESTIGATION_CENTER.md) | Analysts and clients | Understand the workspace, follow evidence collection, interpret recommendations and record an analyst decision. |
 | [Autonomous Investigation Settings](INVESTIGATION_SETTINGS.md) | System Administrators | Enable or pause automatic work, select Rule IDs and understand scope changes. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |
