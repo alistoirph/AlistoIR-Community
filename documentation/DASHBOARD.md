@@ -347,3 +347,5 @@ For a client update, report the relevant time window, alert and case workload, v
 | Live sync means an investigation reran | It refreshes dashboard data; processing occurs through separate workers and workflows. |
 
 See [Configuration](../docs/CONFIGURATION.md), [Wazuh setup](../docs/WAZUH_SETUP.md), [Investigation Settings](INVESTIGATION_SETTINGS.md), [AI privacy](../docs/AI_PRIVACY.md) and [Troubleshooting](../docs/TROUBLESHOOTING.md) for next steps.
+
+For the complete alert-list workflow, filters, badges and actions, read the [Alerts guide](ALERTS.md).
