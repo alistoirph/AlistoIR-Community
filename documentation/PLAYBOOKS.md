@@ -1,5 +1,7 @@
 # Playbooks — automation and response guide
 
+![Playbooks](../docs/images/source/Playbooks.png)
+
 Page: `/playbooks/index` (also `/playbooks`). Applies to AlistoIR Community 3.0.3. Visibility and management/run/approval actions depend on your account's role and record scope.
 
 ## What is a playbook?
