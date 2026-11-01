@@ -20,6 +20,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 | [Advanced Hunt / Multi-Filter](ADVANCED_HUNT.md) | Analysts and managers | Build nested filters, use quick/manual queries and AI helpers, save searches and interpret bounded results. |
 | [SLA Monitoring](SLA.md) | Analysts and managers | Monitor alert/case deadlines, understand timers, filters, compliance formulas, reporting and coverage limits. |
 | [Reports / Report Center](REPORTS.md) | Managers and administrators | Generate case/posture reports, understand KPI date bases, analyst audit, SLA, downloads and reporting limits. |
+| [User Management](USERS.md) | System administrators | Create/edit accounts, understand roles, group scope, five-active-account capacity, passwords, 2FA and deletion. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |
 | [Configuration](../docs/CONFIGURATION.md) | Administrators | Configure accounts, integrations and automatic investigation scope. |
 | [Wazuh setup](../docs/WAZUH_SETUP.md) | Administrators | Connect the Manager API, Indexer and alert forwarder. |
