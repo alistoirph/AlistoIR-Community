@@ -352,3 +352,5 @@ For asset identity, ownership, matching and inventory imports, read the [Assets 
 For reusable procedures, queue approvals and execution verification, read the [Playbooks guide](PLAYBOOKS.md).
 
 For local intelligence memory, trusted observables, feeds and IOC management, read the [Threat Intelligence Hub guide](THREAT_INTELLIGENCE.md).
+
+For Hunt shortcuts and local indicator/pattern searches, read the [Threat Hunting guide](THREAT_HUNTING.md).
