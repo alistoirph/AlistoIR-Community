@@ -1,5 +1,7 @@
 # Threat Hunting — complete analyst guide
 
+![Threat Hunting](../docs/images/source/Threat-Hunting.png)
+
 Page: `/hunt/index` (also `/hunt`). Applies to AlistoIR Community 3.0.3. Access requires an eligible analyst/manager role and the applicable deployment permissions/features.
 
 ## What does Threat Hunting do?
