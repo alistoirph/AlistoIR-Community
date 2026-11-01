@@ -1,5 +1,7 @@
 # Collect Wazuh Evidence and Analyze with AI — analyst guide
 
+![Wazuh AI Investigation](../docs/images/source/Wazuh-AI-Investigation.png)
+
 Page: `/alerts/wazuh_ai_investigate` with an existing alert reference. Applies to AlistoIR Community 3.0.3. Open **Collect Wazuh Evidence and Analyze with AI** from [Alert View](ALERT_VIEW.md), or open an existing Wazuh AI report linked to the investigation.
 
 ## What does this page do?
