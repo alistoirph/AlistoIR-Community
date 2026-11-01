@@ -196,3 +196,5 @@ This is an analyst-led search, not an automatic AI verdict. A match can support 
 | Security validation failed | Refresh the signed-in page before retrying a state-changing action. Do not disable CSRF/integrity controls. |
 
 Continue with [Alerts](ALERTS.md), [Alert View](ALERT_VIEW.md), [Investigate Logs](INVESTIGATE_LOGS.md), [Investigation Center](INVESTIGATION_CENTER.md), [Threat Intelligence](THREAT_INTELLIGENCE.md) and [Troubleshooting](../docs/TROUBLESHOOTING.md).
+
+For step-by-step nested conditions, manual expressions and AI hunt helpers, read [Advanced Hunt / Multi-Filter](ADVANCED_HUNT.md).
