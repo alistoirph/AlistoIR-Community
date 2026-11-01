@@ -1,5 +1,7 @@
 # Investigation Center — analyst and client guide
 
+![Investigation Center](../docs/images/source/Investigation Center.png)
+
 Applies to AlistoIR Community 3.0.3. Some controls depend on your role, access scope and integration configuration.
 
 ## What is the Investigation Center?
