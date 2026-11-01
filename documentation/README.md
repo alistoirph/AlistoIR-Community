@@ -14,6 +14,7 @@ Practical guides for analysts, clients and administrators using AlistoIR Communi
 | [Assets / CMDB](CMDB.md) | Analysts and administrators | Manage asset identity/business context, understand matching and colors, and import inventory safely. |
 | [Analyst Chat](CHAT.md) | Analysts and team managers | Use channels, replies, mentions, attachments, search and channel controls. |
 | [Direct Messages](DIRECT_MESSAGES.md) | Analysts and clients with access | Use one-to-one chat, understand recipient eligibility, unread/seen signals and message sharing. |
+| [Playbooks](PLAYBOOKS.md) | Analysts, managers and administrators | Understand triggers, action steps, approvals, execution history and the five-active-playbook Community limit. |
 | [Installation](../docs/INSTALLATION.md) | Administrators | Download, verify and install the official Community package on Ubuntu. |
 | [Configuration](../docs/CONFIGURATION.md) | Administrators | Configure accounts, integrations and automatic investigation scope. |
 | [Wazuh setup](../docs/WAZUH_SETUP.md) | Administrators | Connect the Manager API, Indexer and alert forwarder. |
