@@ -1,5 +1,7 @@
 # Reports — complete reporting guide
 
+![Reports](../docs/images/source/Reports.png)
+
 Page: `/reports/index`. Applies to AlistoIR Community 3.0.3. The Report Center requires an eligible manager/administrator account and the applicable deployment feature permissions. Linked workflows enforce their own access checks.
 
 The Report Center brings together report history, case reporting, alert coverage, audit activity, analyst case monitoring, SLA summaries and recorded threat hunts. Use it to review operational activity and prepare evidence-supported management/client updates.
