@@ -1,5 +1,7 @@
 # Analyst Chat — team collaboration guide
 
+![Analyst Chat](../docs/images/source/Analyst-Chat.png)
+
 Page: `/chat/index` (also accessible through `/chat`). Applies to AlistoIR Community 3.0.3. This is **human-to-human collaboration**, separate from the AI Investigation Assistant.
 
 ## What is Analyst Chat for?
