@@ -1,5 +1,7 @@
 # Autonomous Investigation Settings — administrator guide
 
+![Investigation Center](../docs/images/source/Investigation-Center.png)
+
 Page: `/investigations/settings` on your AlistoIR server. Applies to Community 3.0.3.
 
 ## What is this page for?
@@ -7,10 +9,6 @@ Page: `/investigations/settings` on your AlistoIR server. Applies to Community 3
 This page controls **whether automatic investigation runs and which Wazuh Rule IDs it covers**. It is a platform-wide policy, not a filter for one analyst's screen or one alert. Only a **System Administrator** can access and change it.
 
 Use [Investigation Center](INVESTIGATION_CENTER.md) to monitor and review investigations. Use this settings page to control their automatic scope.
-
-![Illustration of autonomous investigation settings and Rule ID selection](../docs/images/06-autonomous-settings.png)
-
-*Instructional illustration, not a screenshot of a live deployment. Examples are illustrative; actual layout may vary.*
 
 ## Controls on the page
 
