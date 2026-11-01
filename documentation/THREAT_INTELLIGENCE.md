@@ -1,5 +1,7 @@
 # Threat Intelligence Hub / IOC Manager — complete guide
 
+![Threat Intel Hub](../docs/images/source/Threat-Intel-Hub.png)
+
 Page: `/ioc/index` (also `/ioc`). Applies to AlistoIR Community 3.0.3. The management page requires a manager-capable account. Ordinary analysts can encounter intelligence context in alerts/cases without having access to every management control here.
 
 ## What is this page for?
