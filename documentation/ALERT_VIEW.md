@@ -350,3 +350,5 @@ For the separate Indexer collection/report workflow, read [Collect Wazuh Evidenc
 For asset identity, ownership, matching and inventory imports, read the [Assets / CMDB guide](CMDB.md).
 
 For reusable procedures, queue approvals and execution verification, read the [Playbooks guide](PLAYBOOKS.md).
+
+For local intelligence memory, trusted observables, feeds and IOC management, read the [Threat Intelligence Hub guide](THREAT_INTELLIGENCE.md).

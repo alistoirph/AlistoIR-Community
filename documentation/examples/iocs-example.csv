@@ -1,0 +1,5 @@
+type,value,confidence,threat_type,tags
+ip,192.0.2.42,10,training-only,"demo,not-for-blocking"
+domain,example.invalid,10,training-only,"demo,not-for-blocking"
+url,https://download.example.invalid/sample.txt,10,training-only,"demo,not-for-blocking"
+email,sample@example.invalid,10,training-only,"demo,not-for-blocking"
