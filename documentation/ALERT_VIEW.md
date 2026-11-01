@@ -1,5 +1,7 @@
 # Alert View — complete analyst and client guide
 
+![Alerts View](../docs/images/source/Alerts-View.png)
+
 Page: `/alerts/view/` on your AlistoIR server. Applies to Community 3.0.3. Open an existing record from the [Alerts list](ALERTS.md); this page requires its alert identifier/reference. Panels and actions depend on permissions, payload data, endpoint mapping and integrations.
 
 ## What is this page for?
