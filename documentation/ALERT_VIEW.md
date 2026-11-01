@@ -342,3 +342,5 @@ This is not universal DLP and does not automatically sanitize **Copy, notes, exp
 For clients, report the observed signal, verified findings, limitations, analyst conclusion and actual response state. Do not say blocked, isolated, resolved or false positive solely because the AI recommended it.
 
 Continue with [Alerts](ALERTS.md), [Investigation Center](INVESTIGATION_CENTER.md), [Investigation Settings](INVESTIGATION_SETTINGS.md), [Dashboard](DASHBOARD.md), [Wazuh setup](../docs/WAZUH_SETUP.md) and [Troubleshooting](../docs/TROUBLESHOOTING.md).
+
+Read the [Investigate Logs guide](INVESTIGATE_LOGS.md) for exact pivot matching, time-window semantics, result limits and Wazuh console shortcuts.
