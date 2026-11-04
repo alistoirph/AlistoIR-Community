@@ -1,5 +1,7 @@
 # Integrations — configuration and status guide
 
+![Integrations](../docs/images/source/Integrations.png)
+
 Page: `/integrations/index`. Applies to AlistoIR Community 3.0.4. Access requires a System Administrator/platform-administrator context. Configuration pages and linked workflows enforce their own access checks.
 
 The **Core Integrations** page summarizes Wazuh ingestion, the selected AI provider, threat-intelligence services and notification channels. Use **Configure Integrations** to open `/integrations/configuration`, where settings are saved. This overview is not a live service-health dashboard.
