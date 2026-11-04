@@ -8,6 +8,27 @@ SLA means **Service Level Agreement**: the configured time targets for handling 
 
 An SLA status describes timeliness, not whether activity is malicious. A completed autonomous investigation does not automatically mean that every analyst responsibility is complete. This page monitors stored milestones and targets; it does not itself assign work, investigate endpoints, dismiss alerts or close cases.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [1. How to use it](#1-how-to-use-it)
+- [2. Status labels and colors](#2-status-labels-and-colors)
+- [3. Alert SLA: four milestones](#3-alert-sla-four-milestones)
+  - [Completion does not prove an on-time result](#completion-does-not-prove-an-on-time-result)
+  - [Overall Alert SLA](#overall-alert-sla)
+- [4. Alert cards and summary panels](#4-alert-cards-and-summary-panels)
+- [5. Alert filters and table](#5-alert-filters-and-table)
+  - [Alert coverage limit](#alert-coverage-limit)
+- [6. Case SLA: response and resolution](#6-case-sla-response-and-resolution)
+- [7. Case cards, priority and analyst summaries](#7-case-cards-priority-and-analyst-summaries)
+- [8. Case filters and table](#8-case-filters-and-table)
+- [9. Generate an SLA report](#9-generate-an-sla-report)
+- [10. Autonomous investigation and analyst responsibility](#10-autonomous-investigation-and-analyst-responsibility)
+- [11. Troubleshooting and daily review](#11-troubleshooting-and-daily-review)
+
+<!-- toc:end -->
+
 ## 1. How to use it
 
 1. Open **SLA**, then choose Alert SLA or Case SLA.

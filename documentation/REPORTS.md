@@ -8,6 +8,27 @@ The Report Center brings together report history, case reporting, alert coverage
 
 Opening this page reads stored data. It does not start autonomous investigations, collect endpoint evidence or generate every report automatically. Counts reflect available records and access rules; they are not proof of complete telemetry or incident-detection accuracy.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [1. How to use the Report Center](#1-how-to-use-the-report-center)
+- [2. Period and date controls](#2-period-and-date-controls)
+- [3. KPI cards](#3-kpi-cards)
+- [4. Quick-action tiles](#4-quick-action-tiles)
+- [5. Generated Reports](#5-generated-reports)
+- [6. Case Reporting and case PDFs](#6-case-reporting-and-case-pdfs)
+- [7. Alert Severity Summary](#7-alert-severity-summary)
+- [8. Audit activity and action summary](#8-audit-activity-and-action-summary)
+- [9. Analyst Case Monitoring and Analyst Audit modal](#9-analyst-case-monitoring-and-analyst-audit-modal)
+  - [Important verdict-count limitation](#important-verdict-count-limitation)
+- [10. SLA summary](#10-sla-summary)
+- [11. Threat Hunt Activity](#11-threat-hunt-activity)
+- [12. Generate a Security Posture report](#12-generate-a-security-posture-report)
+- [13. Reporting limits and troubleshooting](#13-reporting-limits-and-troubleshooting)
+
+<!-- toc:end -->
+
 ## 1. How to use the Report Center
 
 1. Open **Reports** and choose **Period**.

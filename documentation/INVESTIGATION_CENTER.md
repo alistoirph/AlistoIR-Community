@@ -4,6 +4,30 @@
 
 Applies to AlistoIR Community 3.0.3. Some controls depend on your role, access scope and integration configuration.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is the Investigation Center?](#what-is-the-investigation-center)
+- [How the workflow works](#how-the-workflow-works)
+- [Open the workspace](#open-the-workspace)
+  - [Understand the summary cards](#understand-the-summary-cards)
+  - [Understand the investigation list](#understand-the-investigation-list)
+- [Investigation statuses](#investigation-statuses)
+- [Start an investigation for an existing alert](#start-an-investigation-for-an-existing-alert)
+- [Read the investigation details](#read-the-investigation-details)
+  - [AI recommendation](#ai-recommendation)
+  - [Evidence gaps and decision readiness](#evidence-gaps-and-decision-readiness)
+  - [MITRE investigation coverage](#mitre-investigation-coverage)
+  - [Historical context](#historical-context)
+- [Record the analyst decision](#record-the-analyst-decision)
+- [Example: suspicious PowerShell activity](#example-suspicious-powershell-activity)
+- [AI privacy in 3.0.3](#ai-privacy-in-303)
+- [Common questions](#common-questions)
+- [Analyst handover checklist](#analyst-handover-checklist)
+
+<!-- toc:end -->
+
 ## What is the Investigation Center?
 
 The Investigation Center is the workspace for tracking automated security investigations and reviewing their results. It brings together the alert, evidence collection progress, AI recommendation, missing evidence and the analyst's recorded decision.

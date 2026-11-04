@@ -4,6 +4,43 @@
 
 Page: `/alerts/view/` on your AlistoIR server. Applies to Community 3.0.3. Open an existing record from the [Alerts list](ALERTS.md); this page requires its alert identifier/reference. Panels and actions depend on permissions, payload data, endpoint mapping and integrations.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is this page for?](#what-is-this-page-for)
+- [1. Navigation and alert identity](#1-navigation-and-alert-identity)
+- [2. Alert Details](#2-alert-details)
+  - [Context shortcuts](#context-shortcuts)
+- [3. Alert Owner, acknowledgement and triage](#3-alert-owner-acknowledgement-and-triage)
+- [4. Alert status and analyst reasons](#4-alert-status-and-analyst-reasons)
+- [5. Alert SLA](#5-alert-sla)
+- [6. Asset Context](#6-asset-context)
+- [7. Autonomous Investigation](#7-autonomous-investigation)
+- [8. Endpoint Investigation / Analyst Validation Panel](#8-endpoint-investigation--analyst-validation-panel)
+  - [AI Endpoint Investigation Recommendation](#ai-endpoint-investigation-recommendation)
+  - [Endpoint Triage Reports](#endpoint-triage-reports)
+- [9. Collect endpoint evidence](#9-collect-endpoint-evidence)
+- [10. Wazuh evidence and AI report](#10-wazuh-evidence-and-ai-report)
+- [11. AI Copilot](#11-ai-copilot)
+  - [Shared evidence scope and limitations](#shared-evidence-scope-and-limitations)
+- [12. Follow-on Event Correlation / Timeline Copilot](#12-follow-on-event-correlation--timeline-copilot)
+- [13. AI Investigation Assistant](#13-ai-investigation-assistant)
+- [14. Readable JSON View and Raw JSON Payload](#14-readable-json-view-and-raw-json-payload)
+- [15. Linked Artifacts and Threat Intel Enrichment](#15-linked-artifacts-and-threat-intel-enrichment)
+  - [Linked Artifacts](#linked-artifacts)
+  - [Threat Intel Enrichment](#threat-intel-enrichment)
+- [16. Cases, duplicates and historical outcomes](#16-cases-duplicates-and-historical-outcomes)
+- [17. Custom Fields, Quick Info and Analyst Notes & History](#17-custom-fields-quick-info-and-analyst-notes--history)
+- [18. Response: blocking, isolation and remediation](#18-response-blocking-isolation-and-remediation)
+  - [Request IP Block on Endpoint](#request-ip-block-on-endpoint)
+  - [Isolate / Release Endpoint](#isolate--release-endpoint)
+  - [Respond dialog](#respond-dialog)
+- [19. Refresh, troubleshooting and privacy](#19-refresh-troubleshooting-and-privacy)
+- [20. Analyst completion and client handover](#20-analyst-completion-and-client-handover)
+
+<!-- toc:end -->
+
 ## What is this page for?
 
 Alert View brings together the original detection, ownership/SLA, collected evidence, AI assistance, historical context, case associations and supported endpoint actions. It helps answer: **What happened, what evidence supports the assessment, what is missing, and what should happen next?**

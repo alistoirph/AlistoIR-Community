@@ -2,6 +2,15 @@
 
 Official Community and Professional build pipelines now require the configured PHP control-flow obfuscator to complete successfully. A required failure aborts the build; there is no stripped-source fallback for required application logic. Critical license, AI service, autonomous agent and investigation files must contain real PHP control-flow protection and pass syntax checks. Community also requires protection of its integrity verifier.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [Exact scope](#exact-scope)
+- [Integrity and verification](#integrity-and-verification)
+
+<!-- toc:end -->
+
 ## Exact scope
 
 - Eligible first-party PHP logic uses YAK Pro control-flow obfuscation, with function/class/property identifiers preserved for compatibility.

@@ -4,6 +4,29 @@
 
 Page: `/alerts/wazuh_ai_investigate` with an existing alert reference. Applies to AlistoIR Community 3.0.3. Open **Collect Wazuh Evidence and Analyze with AI** from [Alert View](ALERT_VIEW.md), or open an existing Wazuh AI report linked to the investigation.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What does this page do?](#what-does-this-page-do)
+- [1. Prerequisites and access](#1-prerequisites-and-access)
+- [2. Source Alert panel and navigation](#2-source-alert-panel-and-navigation)
+- [3. Investigation Window](#3-investigation-window)
+- [4. Collection scope and deterministic tools](#4-collection-scope-and-deterministic-tools)
+- [5. Collection and model limits](#5-collection-and-model-limits)
+- [6. Previous Runs](#6-previous-runs)
+- [7. Run status and color coding](#7-run-status-and-color-coding)
+- [8. AI Verdict and Recommended Actions](#8-ai-verdict-and-recommended-actions)
+  - [Failed, partial and empty collection](#failed-partial-and-empty-collection)
+- [9. Stored Evidence](#9-stored-evidence)
+- [10. Deterministic Query Audit](#10-deterministic-query-audit)
+- [11. Privacy and data flow](#11-privacy-and-data-flow)
+- [12. How it aligns with autonomous investigation](#12-how-it-aligns-with-autonomous-investigation)
+- [13. Suggested analyst workflow](#13-suggested-analyst-workflow)
+- [14. Troubleshooting](#14-troubleshooting)
+
+<!-- toc:end -->
+
 ## What does this page do?
 
 This workflow **collects read-only, time-bounded evidence from the configured Wazuh Indexer, stores normalized evidence locally, then requests a sanitized AI assessment**. It provides traceability through evidence references and a deterministic query audit.

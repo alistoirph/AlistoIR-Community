@@ -4,6 +4,36 @@
 
 Page: `/ioc/index` (also `/ioc`). Applies to AlistoIR Community 3.0.3. The management page requires a manager-capable account. Ordinary analysts can encounter intelligence context in alerts/cases without having access to every management control here.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is this page for?](#what-is-this-page-for)
+- [1. Tabs and Community quota](#1-tabs-and-community-quota)
+- [2. Scope and permissions](#2-scope-and-permissions)
+- [3. Threat Intel Hub](#3-threat-intel-hub)
+  - [Top Local Indicators](#top-local-indicators)
+  - [Recent Sightings and indicator details](#recent-sightings-and-indicator-details)
+- [4. Trusted / Warning List](#4-trusted--warning-list)
+  - [Add Trusted Observable](#add-trusted-observable)
+  - [Review and revoke](#review-and-revoke)
+- [5. IOC Feeds](#5-ioc-feeds)
+- [6. Add Single IOC](#6-add-single-ioc)
+- [7. Bulk Import CSV](#7-bulk-import-csv)
+- [8. Feed Sources](#8-feed-sources)
+  - [Add External Feed Source](#add-external-feed-source)
+  - [Refresh and deletion behavior](#refresh-and-deletion-behavior)
+  - [URL and download controls](#url-and-download-controls)
+- [9. IOC Matches](#9-ioc-matches)
+- [10. All IOCs: search, pagination and export](#10-all-iocs-search-pagination-and-export)
+  - [Confidence colors](#confidence-colors)
+  - [Export CSV](#export-csv)
+- [11. Deletion, trust and evidence history](#11-deletion-trust-and-evidence-history)
+- [12. Suggested operating workflow](#12-suggested-operating-workflow)
+- [13. Troubleshooting](#13-troubleshooting)
+
+<!-- toc:end -->
+
 ## What is this page for?
 
 The Threat Intelligence Hub manages observable knowledge, trusted exceptions and external feed indicators used during correlation/enrichment. IOC means **Indicator of Compromise**, but a saved indicator or match is an investigative lead, not proof that the current endpoint is compromised.

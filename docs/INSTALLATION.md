@@ -4,6 +4,21 @@
 
 *Illustration: the installation sequence. Run the copyable commands below directly on your Ubuntu VM.*
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [1. Prepare a new VM](#1-prepare-a-new-vm)
+- [2. Download directly on the Ubuntu VM](#2-download-directly-on-the-ubuntu-vm)
+- [3. Verify SHA-256 on the VM](#3-verify-sha-256-on-the-vm)
+- [4. Extract on the VM](#4-extract-on-the-vm)
+- [5. Install](#5-install)
+- [6. Verify services and HTTPS](#6-verify-services-and-https)
+- [7. Trust HTTPS appropriately](#7-trust-https-appropriately)
+- [8. Continue with configuration](#8-continue-with-configuration)
+
+<!-- toc:end -->
+
 ## 1. Prepare a new VM
 
 Use Ubuntu Server 24.04 LTS x86-64 with at least 2 vCPUs, 4 GB RAM, 40 GB disk, a stable IP/hostname and Internet access. The installer refuses an existing app directory/environment or a non-empty target database.

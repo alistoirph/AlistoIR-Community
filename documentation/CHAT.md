@@ -4,6 +4,25 @@
 
 Page: `/chat/index` (also accessible through `/chat`). Applies to AlistoIR Community 3.0.3. This is **human-to-human collaboration**, separate from the AI Investigation Assistant.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is Analyst Chat for?](#what-is-analyst-chat-for)
+- [1. Page layout](#1-page-layout)
+- [2. Channels and colors](#2-channels-and-colors)
+- [3. Send a message](#3-send-a-message)
+- [4. Replies, mentions and reactions](#4-replies-mentions-and-reactions)
+- [5. Attachments and screenshot sharing](#5-attachments-and-screenshot-sharing)
+- [6. Edit and delete](#6-edit-and-delete)
+- [7. Search messages](#7-search-messages)
+- [8. Presence, typing and live synchronization](#8-presence-typing-and-live-synchronization)
+- [9. Manage channels](#9-manage-channels)
+- [10. Security and investigation handover](#10-security-and-investigation-handover)
+- [11. Troubleshooting](#11-troubleshooting)
+
+<!-- toc:end -->
+
 ## What is Analyst Chat for?
 
 Use Chat to coordinate triage, ask colleagues for context, discuss indicators and hand over work. It supports channels and one-to-one rooms. Important conclusions, evidence, ownership changes and approvals still belong in the relevant alert, investigation, case or response workflow.

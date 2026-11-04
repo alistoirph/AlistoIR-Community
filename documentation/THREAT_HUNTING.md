@@ -4,6 +4,28 @@
 
 Page: `/hunt/index` (also `/hunt`). Applies to AlistoIR Community 3.0.3. Access requires an eligible analyst/manager role and the applicable deployment permissions/features.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What does Threat Hunting do?](#what-does-threat-hunting-do)
+- [1. Search controls](#1-search-controls)
+- [2. Search Type behavior](#2-search-type-behavior)
+- [3. Raw JSON Regex (PCRE2)](#3-raw-json-regex-pcre2)
+- [4. Top Threat Indicators sidebar](#4-top-threat-indicators-sidebar)
+- [5. Hunt Summary](#5-hunt-summary)
+- [6. Search limits and ordering](#6-search-limits-and-ordering)
+- [7. Hunt Results table](#7-hunt-results-table)
+  - [Color coding](#color-coding)
+- [8. Previous Hunts and storage](#8-previous-hunts-and-storage)
+- [9. Mark Hunt Complete](#9-mark-hunt-complete)
+- [10. Export CSV and Export JSON](#10-export-csv-and-export-json)
+- [11. Blank-page tools and recent alerts](#11-blank-page-tools-and-recent-alerts)
+- [12. Suggested analyst workflow](#12-suggested-analyst-workflow)
+- [13. Troubleshooting](#13-troubleshooting)
+
+<!-- toc:end -->
+
 ## What does Threat Hunting do?
 
 Threat Hunting searches **alert records already stored in AlistoIR**, including supported extracted event fields and linked artifact values. It helps an analyst look for a known observable, process, account, path or pattern across accessible records.

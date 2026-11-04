@@ -25,6 +25,16 @@ Do not paste `.env`, installer output with credentials, generated Wazuh deployme
 | IOC import skips rows | Review duplicate/invalid rows and the 3,000 active unique IOC quota. |
 | Integrity validation failed | Restore matching official protected files and manifest. Preserve database/private runtime; do not edit quota/verifier code. |
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [Service and scheduler checks](#service-and-scheduler-checks)
+- [Paths (compatibility names are expected)](#paths-compatibility-names-are-expected)
+- [Recovery and upgrades](#recovery-and-upgrades)
+
+<!-- toc:end -->
+
 ## Service and scheduler checks
 
 ```bash

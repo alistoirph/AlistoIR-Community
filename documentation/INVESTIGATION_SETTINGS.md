@@ -4,6 +4,25 @@
 
 Page: `/investigations/settings` on your AlistoIR server. Applies to Community 3.0.3.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is this page for?](#what-is-this-page-for)
+- [Controls on the page](#controls-on-the-page)
+- [Enable AI autonomous investigation](#enable-ai-autonomous-investigation)
+  - [When enabled](#when-enabled)
+  - [When disabled](#when-disabled)
+- [Rule IDs](#rule-ids)
+  - [Input rules](#input-rules)
+  - [What happens when the list changes?](#what-happens-when-the-list-changes)
+- [How to configure selected rules](#how-to-configure-selected-rules)
+- [Common operating choices](#common-operating-choices)
+- [Verify the change](#verify-the-change)
+- [Troubleshooting](#troubleshooting)
+
+<!-- toc:end -->
+
 ## What is this page for?
 
 This page controls **whether automatic investigation runs and which Wazuh Rule IDs it covers**. It is a platform-wide policy, not a filter for one analyst's screen or one alert. Only a **System Administrator** can access and change it.

@@ -4,6 +4,31 @@
 
 Page: `/cmdb/index` on your AlistoIR server. Applies to Community 3.0.3. Add, Edit and Import require CMDB management permission; read-only users will not see every control.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is the CMDB?](#what-is-the-cmdb)
+- [1. Page controls and permissions](#1-page-controls-and-permissions)
+- [2. Summary cards](#2-summary-cards)
+- [3. Search, filters and ordering](#3-search-filters-and-ordering)
+- [4. Inventory columns](#4-inventory-columns)
+- [5. Color coding and meanings](#5-color-coding-and-meanings)
+  - [Asset Criticality](#asset-criticality)
+  - [Asset Status](#asset-status)
+- [6. Add Asset or Edit](#6-add-asset-or-edit)
+  - [Asset Identity fields](#asset-identity-fields)
+  - [Business Context fields](#business-context-fields)
+  - [Risk Profile fields](#risk-profile-fields)
+- [7. How assets match alerts and cases](#7-how-assets-match-alerts-and-cases)
+- [8. View an asset](#8-view-an-asset)
+- [9. Import CSV](#9-import-csv)
+  - [Matching and update behavior](#matching-and-update-behavior)
+- [10. Inventory quality and maintenance](#10-inventory-quality-and-maintenance)
+- [11. Troubleshooting](#11-troubleshooting)
+
+<!-- toc:end -->
+
 ## What is the CMDB?
 
 CMDB means **Configuration Management Database**. In AlistoIR, it is an asset inventory that connects technical identifiers to ownership and business importance. It helps an analyst understand **which asset an alert concerns, who owns it and why it matters**.

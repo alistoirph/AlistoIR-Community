@@ -4,6 +4,43 @@
 
 Page: `/dashboard/index` on your AlistoIR server. Applies to AlistoIR Community 3.0.3. Some infrastructure sections require platform-level permissions and will not appear for every account.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What the dashboard is for](#what-the-dashboard-is-for)
+- [Navigation, scope and freshness](#navigation-scope-and-freshness)
+- [1. Main KPI cards](#1-main-kpi-cards)
+- [2. Attack Source Map](#2-attack-source-map)
+  - [Color coding: map markers and hotspot dots](#color-coding-map-markers-and-hotspot-dots)
+  - [Source Hotspots](#source-hotspots)
+- [3. Priority Response Metrics](#3-priority-response-metrics)
+- [4. Documentation and Quality Metrics](#4-documentation-and-quality-metrics)
+- [5. Threat Activity and Analyst Monitoring](#5-threat-activity-and-analyst-monitoring)
+  - [Alert Volume by Severity](#alert-volume-by-severity)
+  - [Analyst Alert Monitoring](#analyst-alert-monitoring)
+  - [Analyst Case Monitoring](#analyst-case-monitoring)
+  - [Top Triggered Rules](#top-triggered-rules)
+  - [Recent IOC Matches](#recent-ioc-matches)
+- [6. Case Tags and MITRE Monitoring](#6-case-tags-and-mitre-monitoring)
+  - [Case Tags Monitoring](#case-tags-monitoring)
+  - [MITRE Tactics Monitoring](#mitre-tactics-monitoring)
+- [7. Compliance Visualizations](#7-compliance-visualizations)
+- [8. Recent Alerts and Cases](#8-recent-alerts-and-cases)
+  - [Recent Alerts](#recent-alerts)
+  - [Recent Cases](#recent-cases)
+- [9. System Resource Monitor](#9-system-resource-monitor)
+- [10. Alert Queue Operations](#10-alert-queue-operations)
+  - [Queue Health Summary](#queue-health-summary)
+  - [Worker Controls](#worker-controls)
+  - [Queue Observability](#queue-observability)
+- [11. System Status](#11-system-status)
+- [12. Dialogs and drill-downs](#12-dialogs-and-drill-downs)
+- [Suggested daily workflow](#suggested-daily-workflow)
+- [Common interpretation mistakes](#common-interpretation-mistakes)
+
+<!-- toc:end -->
+
 ## What the dashboard is for
 
 The dashboard provides an operational overview of security alerts, case workload, response performance, documentation quality and platform health. Use it to decide **what needs attention and where to investigate next**.

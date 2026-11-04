@@ -2,6 +2,25 @@
 
 Official maintenance release, 4 November 2026.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What's new](#whats-new)
+- [Validation](#validation)
+- [Download and installation](#download-and-installation)
+- [AlistoIR Community 3.0.3](#alistoir-community-303)
+- [What's new](#whats-new-1)
+- [Validation](#validation-1)
+- [Download and installation](#download-and-installation-1)
+- [AlistoIR Community 3.0.2](#alistoir-community-302)
+- [Changes](#changes)
+- [Source-protection scope](#source-protection-scope)
+- [Validation](#validation-2)
+- [Download and installation](#download-and-installation-2)
+
+<!-- toc:end -->
+
 ## What's new
 
 One active authenticated browser session per account. A second login from another browser/device is denied while the original session remains usable. Normal login, completed 2FA and bridge login use the same server-side ownership check. Logout frees the slot; closing a browser without logging out waits for session expiry. Idle/absolute limits follow deployment configuration (fallbacks: 30 minutes/eight hours).

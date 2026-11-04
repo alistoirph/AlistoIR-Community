@@ -2,6 +2,18 @@
 
 Use a dedicated lab with synthetic or approved test data. Record the release asset name, SHA-256, Ubuntu version, CPU/RAM/disk, Wazuh version and test timestamp. Do not attach credentials or raw client evidence.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [Installation](#installation)
+- [Wazuh and evidence](#wazuh-and-evidence)
+- [AI and cases](#ai-and-cases)
+- [Limits and security](#limits-and-security)
+- [Feedback](#feedback)
+
+<!-- toc:end -->
+
 ## Installation
 
 - [ ] SHA-256 matches the release checksum.

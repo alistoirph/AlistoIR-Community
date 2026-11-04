@@ -4,6 +4,28 @@
 
 Page: `/alerts/investigate_logs` with an existing alert reference. Applies to AlistoIR Community 3.0.3. Open **Investigate Logs** or an IP's **Logs** shortcut from [Alert View](ALERT_VIEW.md).
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What does this page do?](#what-does-this-page-do)
+- [1. Open the correct source alert](#1-open-the-correct-source-alert)
+- [2. Navigation and tools](#2-navigation-and-tools)
+- [3. Source Alert panel](#3-source-alert-panel)
+- [4. Pivot Scope](#4-pivot-scope)
+- [5. Time Window — both before and after](#5-time-window--both-before-and-after)
+- [6. Results and summary counts](#6-results-and-summary-counts)
+- [7. Result-table columns](#7-result-table-columns)
+  - [Match Context labels](#match-context-labels)
+- [8. Color coding on this page](#8-color-coding-on-this-page)
+  - [Severity](#severity)
+  - [Alert status](#alert-status)
+- [9. Wazuh Dashboard and OpenSearch query](#9-wazuh-dashboard-and-opensearch-query)
+- [10. Example workflow](#10-example-workflow)
+- [11. Troubleshooting and interpretation limits](#11-troubleshooting-and-interpretation-limits)
+
+<!-- toc:end -->
+
 ## What does this page do?
 
 Investigate Logs is a **local alert-correlation workspace**. Starting from one alert, it finds other accessible alerts already ingested into AlistoIR that match selected context and received-time boundaries. It also provides a shortcut/query for continuing the investigation in Wazuh Dashboard where configured.

@@ -6,6 +6,26 @@ Page: `/users/index`. Applies to AlistoIR Community 3.0.3. User management requi
 
 Use this page to create accounts, edit identity/role/status, configure supported agent-group restrictions, change passwords, toggle existing two-factor authentication and delete accounts. It does not create endpoint/Wazuh agent accounts or configure the external AI provider.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [Single-session sign-in in 3.0.4](#single-session-sign-in-in-304)
+- [1. How to use it](#1-how-to-use-it)
+- [2. Community account limit](#2-community-account-limit)
+- [3. Header and account table](#3-header-and-account-table)
+- [4. Roles](#4-roles)
+- [5. Add User fields](#5-add-user-fields)
+  - [Creation and credentials email](#creation-and-credentials-email)
+- [6. Allowed Agent Groups](#6-allowed-agent-groups)
+- [7. Edit an account and change a password](#7-edit-an-account-and-change-a-password)
+- [8. Two-factor authentication](#8-two-factor-authentication)
+- [9. Presence versus account status](#9-presence-versus-account-status)
+- [10. Delete an account](#10-delete-an-account)
+- [11. Troubleshooting](#11-troubleshooting)
+
+<!-- toc:end -->
+
 ## Single-session sign-in in 3.0.4
 
 Each account can have one active authenticated browser session. A second browser/device is denied until the original session logs out or expires; the first session is preserved. Closing the browser alone does not log out. Idle and absolute limits follow deployment settings. Use separate accounts for separate people.

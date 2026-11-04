@@ -4,6 +4,32 @@
 
 Page: `/playbooks/index` (also `/playbooks`). Applies to AlistoIR Community 3.0.3. Visibility and management/run/approval actions depend on your account's role and record scope.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is a playbook?](#what-is-a-playbook)
+- [1. Community limit: five active playbooks](#1-community-limit-five-active-playbooks)
+- [2. Page layout and permissions](#2-page-layout-and-permissions)
+- [3. Summary cards](#3-summary-cards)
+- [4. Filters and catalog columns](#4-filters-and-catalog-columns)
+  - [Colors](#colors)
+- [5. View details, pause, activate or delete](#5-view-details-pause-activate-or-delete)
+- [6. Create or edit a playbook](#6-create-or-edit-a-playbook)
+- [7. Trigger types](#7-trigger-types)
+  - [Alert conditions](#alert-conditions)
+  - [Schedule intervals](#schedule-intervals)
+- [8. Templates and visual step builder](#8-templates-and-visual-step-builder)
+- [9. Available action types](#9-available-action-types)
+- [10. Runtime variables and execution context](#10-runtime-variables-and-execution-context)
+- [11. Run manually](#11-run-manually)
+- [12. Destructive Action Approval Queue](#12-destructive-action-approval-queue)
+- [13. Recent Executions and history](#13-recent-executions-and-history)
+- [14. First-use workflow](#14-first-use-workflow)
+- [15. Troubleshooting](#15-troubleshooting)
+
+<!-- toc:end -->
+
 ## What is a playbook?
 
 A playbook is a saved sequence of supported actions for repeatable triage, case handling, notifications or endpoint response. It combines **when to run**, **which record/endpoint it concerns**, and **what ordered steps to perform**.

@@ -1,5 +1,21 @@
 # Configuration
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [Administrator and accounts](#administrator-and-accounts)
+- [Wazuh](#wazuh)
+- [AI provider](#ai-provider)
+- [Autonomous investigation](#autonomous-investigation)
+- [Evidence readiness](#evidence-readiness)
+- [Playbooks and IOCs](#playbooks-and-iocs)
+- [Private CTI destinations and download safety](#private-cti-destinations-and-download-safety)
+- [Official build integrity](#official-build-integrity)
+- [Outbound AI privacy](#outbound-ai-privacy)
+
+<!-- toc:end -->
+
 ## Administrator and accounts
 
 Use the generated administrator account, change its password and configure 2FA where available. Use individual analyst accounts for auditability. Community supports 5 active accounts including administrators. Disable an existing account to free a slot; inactive accounts do not count. The Add User button is disabled at the active limit and server-side checks also enforce it.

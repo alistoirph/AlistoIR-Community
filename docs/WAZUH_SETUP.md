@@ -5,6 +5,20 @@ There are **two different ZIPs**:
 - The Community release installer installs the AlistoIR server.
 - The wizard's **`alistoir-wazuh-deployment.zip`** installs forwarding on your Wazuh manager and contains an ingest credential.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [1. Configure the connection](#1-configure-the-connection)
+  - [Wazuh Managers: field-by-field configuration](#wazuh-managers-field-by-field-configuration)
+- [2. Paste public CA certificates if needed](#2-paste-public-ca-certificates-if-needed)
+- [3. Test the saved connections](#3-test-the-saved-connections)
+- [4. Generate the deployment ZIP](#4-generate-the-deployment-zip)
+- [5. Copy to Wazuh and install](#5-copy-to-wazuh-and-install)
+- [6. Verify the service and actual alerts](#6-verify-the-service-and-actual-alerts)
+
+<!-- toc:end -->
+
 ## 1. Configure the connection
 
 As AlistoIR System Administrator, open **Wazuh Setup** (`Admin -> Wazuh Setup`). Click **Configure Wazuh Manager & Indexer**, enter the addresses, credentials and manager key, then save and enable the connection. Community supports one configured manager, including any environment-configured connection. Editing the existing record is the normal way to change it.

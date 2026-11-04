@@ -4,6 +4,21 @@
 
 This repository provides the installer download, documentation, and issue tracking. No application source tree is committed here; the installer contains the runtime files required by the application.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [Download the official release](#download-the-official-release)
+- [What is new in 3.0.4](#what-is-new-in-304)
+- [Documentation](#documentation)
+- [Start here](#start-here)
+- [Included capabilities](#included-capabilities)
+- [Community limits](#community-limits)
+- [Requirements](#requirements)
+- [Security and licensing](#security-and-licensing)
+
+<!-- toc:end -->
+
 ## Download the official release
 
 [Download 3.0.4](https://github.com/alistoirph/AlistoIR-Community/releases/tag/v3.0.4)

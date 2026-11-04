@@ -8,6 +8,27 @@ Advanced Hunt combines conditions to search **alerts already stored in AlistoIR*
 
 It does not collect new endpoint evidence, search every Wazuh Indexer event, or automatically confirm an incident. Existing AI/risk badges remain stored assessments. For simpler indicator hunting, see [Threat Hunting](THREAT_HUNTING.md).
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [1. How to use it: first search](#1-how-to-use-it-first-search)
+- [2. How the search layers combine](#2-how-the-search-layers-combine)
+- [3. Quick Search](#3-quick-search)
+- [4. Build conditions visually](#4-build-conditions-visually)
+  - [Available fields](#available-fields)
+  - [Operators and values](#operators-and-values)
+- [5. Manual Expression Query](#5-manual-expression-query)
+- [6. Date Range and Result Limit](#6-date-range-and-result-limit)
+- [7. Compiled Filter Logic and Matching Alerts](#7-compiled-filter-logic-and-matching-alerts)
+- [8. Saved queries and Reset](#8-saved-queries-and-reset)
+- [9. AI Query Assistant](#9-ai-query-assistant)
+- [10. Floating AI Hunt Assistant](#10-floating-ai-hunt-assistant)
+- [11. Export CSV](#11-export-csv)
+- [12. Analyst workflow and troubleshooting](#12-analyst-workflow-and-troubleshooting)
+
+<!-- toc:end -->
+
 ## 1. How to use it: first search
 
 1. Open **Threat Hunting**, then **Advanced Multi-Filter**.

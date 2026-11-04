@@ -4,6 +4,37 @@
 
 Page: `/alerts/index` on your AlistoIR server. Applies to Community 3.0.3. Actions depend on your role, the alert's status and access permissions.
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is this page for?](#what-is-this-page-for)
+- [1. New-alert severity cards](#1-new-alert-severity-cards)
+  - [Severity colors on this page](#severity-colors-on-this-page)
+- [2. Filters and search](#2-filters-and-search)
+  - [Quick Date Filter and date behavior](#quick-date-filter-and-date-behavior)
+  - [Example searches](#example-searches)
+- [3. Table columns](#3-table-columns)
+  - [Rule recurrence: `×/24h`](#rule-recurrence-24h)
+- [4. Severity, AI verdict and risk score](#4-severity-ai-verdict-and-risk-score)
+  - [AI recommendation badge](#ai-recommendation-badge)
+  - [Risk score](#risk-score)
+- [5. Alert status and accountability](#5-alert-status-and-accountability)
+  - [Owner, acknowledgement and SLA](#owner-acknowledgement-and-sla)
+- [6. Time and age color coding](#6-time-and-age-color-coding)
+- [7. Open, enrich, dismiss or escalate](#7-open-enrich-dismiss-or-escalate)
+  - [View Alert](#view-alert)
+  - [Check Threat Intel](#check-threat-intel)
+  - [Dismiss Alert](#dismiss-alert)
+  - [Escalate Alert](#escalate-alert)
+- [8. Bulk actions](#8-bulk-actions)
+- [9. Sorting, pagination and live refresh](#9-sorting-pagination-and-live-refresh)
+- [10. Export to CSV and Print](#10-export-to-csv-and-print)
+- [11. Suggested analyst workflow](#11-suggested-analyst-workflow)
+- [12. Troubleshooting and interpretation](#12-troubleshooting-and-interpretation)
+
+<!-- toc:end -->
+
 ## What is this page for?
 
 The Alerts page is the central list for finding, prioritizing and opening security detections received by AlistoIR. Use it to narrow the workload, inspect ownership and SLA state, identify case links and IOC matches, and perform permitted triage actions.

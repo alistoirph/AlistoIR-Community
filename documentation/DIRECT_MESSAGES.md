@@ -4,6 +4,24 @@
 
 Applies to AlistoIR Community 3.0.3. Open **Direct Messages** from the header's chat icon, or select **DM** beside an eligible user in [Analyst Chat](CHAT.md).
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What are Direct Messages?](#what-are-direct-messages)
+- [1. Open a conversation](#1-open-a-conversation)
+- [2. Window controls](#2-window-controls)
+- [3. Who can message whom?](#3-who-can-message-whom)
+- [4. Presence, typing, unread and seen](#4-presence-typing-unread-and-seen)
+- [5. Reply, react, edit and delete](#5-reply-react-edit-and-delete)
+- [6. Share a direct message](#6-share-a-direct-message)
+- [7. Files, screenshots and links](#7-files-screenshots-and-links)
+- [8. Search and history limits](#8-search-and-history-limits)
+- [9. Privacy and formal records](#9-privacy-and-formal-records)
+- [10. Troubleshooting](#10-troubleshooting)
+
+<!-- toc:end -->
+
 ## What are Direct Messages?
 
 Direct Messages are one-to-one conversations between eligible AlistoIR users. Use them for coordination, clarification and handovers without posting the conversation to a team channel.

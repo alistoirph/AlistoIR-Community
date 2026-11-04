@@ -1,5 +1,16 @@
 # Community 3.0.3 code-integrity and AI guardrails
 
+<!-- toc:start -->
+
+## Table of contents
+
+- [What is enforced](#what-is-enforced)
+- [Assistant guidance](#assistant-guidance)
+- [Check an installed build](#check-an-installed-build)
+- [Scope and validation](#scope-and-validation)
+
+<!-- toc:end -->
+
 ## What is enforced
 
 - The signed v2 manifest covers the complete immutable application file inventory. Changes, removals, unlisted files and symlink substitutions outside writable runtime roots fail verification. The manifest itself is protected by its signature.
