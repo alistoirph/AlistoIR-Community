@@ -1,5 +1,7 @@
 # Integration Configuration — administrator guide
 
+![Integration Configuration settings](../docs/images/source/Integration-Configuration.png)
+
 Page: `/integrations/configuration`. Applies to AlistoIR Community 3.0.4. Open it from **Integrations → Configure Integrations** using an authorized System Administrator/platform-administrator account.
 
 This page saves Wazuh ingestion policy, AI routing, notification channels, intelligence-provider settings and outbound SMTP. For the card overview and status interpretation, see [Integrations](INTEGRATIONS.md).
