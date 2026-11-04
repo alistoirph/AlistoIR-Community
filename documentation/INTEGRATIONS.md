@@ -207,3 +207,5 @@ Review [Autonomous Investigation Settings](INVESTIGATION_SETTINGS.md) separately
 | Access denied | System/platform-administrator authorization is required for this overview. |
 
 Related guides: [Configuration](../docs/CONFIGURATION.md), [Wazuh Setup](../docs/WAZUH_SETUP.md), [Threat Intelligence](THREAT_INTELLIGENCE.md), [AI privacy](../docs/AI_PRIVACY.md) and [Troubleshooting](../docs/TROUBLESHOOTING.md).
+
+For field-by-field settings and save/test instructions, read [Integration Configuration](INTEGRATION_CONFIGURATION.md).

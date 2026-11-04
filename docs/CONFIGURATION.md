@@ -94,3 +94,5 @@ A root/source owner can remove checks. This is tamper detection, not unbreakable
 Version 3.0.3 applies a mandatory privacy boundary to all AIService providers, including configured local endpoints. See [AI_PRIVACY.md](AI_PRIVACY.md) for withheld fields, aliases, evidence gaps and limitations. Provider authentication headers remain necessary; threat-intelligence API lookups are separate.
 
 For the integration card overview, effective settings and notification tests, read the [Integrations guide](../documentation/INTEGRATIONS.md).
+
+Use the [Integration Configuration field guide](../documentation/INTEGRATION_CONFIGURATION.md) for each form, credential mode and saved-configuration test.
