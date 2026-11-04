@@ -1,3 +1,28 @@
+# AlistoIR Community 3.0.4
+
+Official maintenance release, 4 November 2026.
+
+## What's new
+
+One active authenticated browser session per account. A second login from another browser/device is denied while the original session remains usable. Normal login, completed 2FA and bridge login use the same server-side ownership check. Logout frees the slot; closing a browser without logging out waits for session expiry. Idle/absolute limits follow deployment configuration (fallbacks: 30 minutes/eight hours).
+
+Ownership survives PHP session-ID rotation. Atomic checks allow only one simultaneous login winner, stale tokens cannot renew a replacement session, and stale logouts cannot clear it. Only a hash of the random session ownership token is stored. Session-store failures deny admission. Existing sessions without ownership records compete for the single slot on their next authenticated request.
+
+## Validation
+
+- 19 session checks passed against source and each final protected installer, including independent-process concurrent login, expiry, owner preservation, rotation and logout.
+- Community passed signed-integrity/guardrail checks, 34 synthetic AI privacy checks, 87 investigation regression assertions and 10 autonomous SLA assertions.
+- Deployed Community validation passed 15 MySQL session checks and eight independent-cookie-jar HTTP checks using synthetic identities; no real user account changes or external AI requests.
+- The new session helper is protected. Community contains 220 obfuscated PHP files and signs 470 immutable files, preserving the existing edition limits and AI privacy protections.
+
+## Download and installation
+
+Download **alistoir-community-v3.0.4-one-click.zip** and **SHA256SUMS.txt** from the release assets. Follow [INSTALLATION.md](INSTALLATION.md) for direct Ubuntu downloads. The installer is for fresh installations; existing deployments require a backed-up upgrade procedure. Do not run it over an existing database. GitHub's automatic Source code archives contain this documentation repository, not the application installer.
+
+SHA-256: `1ec9bd47ce682803428afe5e19eb46b6795a74d0eeb1966500970aedcaa1a044`.
+
+---
+
 # AlistoIR Community 3.0.3
 
 Official maintenance release, 31 October 2026.

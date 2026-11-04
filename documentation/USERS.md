@@ -6,6 +6,10 @@ Page: `/users/index`. Applies to AlistoIR Community 3.0.3. User management requi
 
 Use this page to create accounts, edit identity/role/status, configure supported agent-group restrictions, change passwords, toggle existing two-factor authentication and delete accounts. It does not create endpoint/Wazuh agent accounts or configure the external AI provider.
 
+## Single-session sign-in in 3.0.4
+
+Each account can have one active authenticated browser session. A second browser/device is denied until the original session logs out or expires; the first session is preserved. Closing the browser alone does not log out. Idle and absolute limits follow deployment settings. Use separate accounts for separate people.
+
 ## 1. How to use it
 
 1. Sign in with an authorized System Administrator account and open **Users**.
