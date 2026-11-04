@@ -11,6 +11,9 @@ This repository provides the installer download, documentation, and issue tracki
 - [Download the official release](#download-the-official-release)
 - [What is new in 3.0.4](#what-is-new-in-304)
 - [Documentation](#documentation)
+  - [All documentation guides](documentation/README.md)
+  - [Integrations overview](documentation/INTEGRATIONS.md)
+  - [Integration Configuration](documentation/INTEGRATION_CONFIGURATION.md)
 - [Start here](#start-here)
 - [Included capabilities](#included-capabilities)
 - [Community limits](#community-limits)
@@ -50,6 +53,8 @@ Read [release notes and validation limits](docs/RELEASE_NOTES.md) before install
 Open the [documentation folder](documentation/README.md) or read the [Investigation Center guide for analysts and clients](documentation/INVESTIGATION_CENTER.md).
 
 Read the [complete Dashboard guide](documentation/DASHBOARD.md) for metric definitions, charts, workload monitoring and platform-health indicators.
+
+For connection settings, use the [Integrations overview](documentation/INTEGRATIONS.md) and [Integration Configuration field guide](documentation/INTEGRATION_CONFIGURATION.md).
 
 ## Start here
 
