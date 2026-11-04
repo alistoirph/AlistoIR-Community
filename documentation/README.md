@@ -13,6 +13,7 @@ Start with [Installation](../docs/INSTALLATION.md) for a new deployment, or [Inv
   - [Configuration](../docs/CONFIGURATION.md)
   - [Integrations](INTEGRATIONS.md)
   - [Integration Configuration](INTEGRATION_CONFIGURATION.md)
+  - [Wazuh Setup Wizard](WAZUH_SETUP_WIZARD.md)
   - [Wazuh setup](../docs/WAZUH_SETUP.md)
   - [Acceptance checks](../docs/TESTING.md)
 - [Alerts and investigations](#alerts-and-investigations)
@@ -52,6 +53,7 @@ Start with [Installation](../docs/INSTALLATION.md) for a new deployment, or [Inv
 | [Configuration](../docs/CONFIGURATION.md) | Administrators | Configure accounts, integrations and automatic investigation scope. |
 | [Integrations](INTEGRATIONS.md) | System administrators | Configure Wazuh, AI, intelligence and notifications; interpret status, sources, tests and Community restrictions. |
 | [Integration Configuration](INTEGRATION_CONFIGURATION.md) | System administrators | Configure every integration field, mode, saved test, ingest policy, AI provider, intelligence service and SMTP setting. |
+| [Wazuh Setup Wizard](WAZUH_SETUP_WIZARD.md) | System administrators | Follow wizard steps, configure CAs, generate/install the private forwarder bundle, verify readiness and revoke keys. |
 | [Wazuh setup](../docs/WAZUH_SETUP.md) | Administrators | Connect the Manager API, Indexer and alert forwarder. |
 | [Acceptance checks](../docs/TESTING.md) | Deployment owners | Check that a deployment works with controlled lab evidence. |
 

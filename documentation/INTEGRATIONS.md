@@ -209,3 +209,5 @@ Review [Autonomous Investigation Settings](INVESTIGATION_SETTINGS.md) separately
 Related guides: [Configuration](../docs/CONFIGURATION.md), [Wazuh Setup](../docs/WAZUH_SETUP.md), [Threat Intelligence](THREAT_INTELLIGENCE.md), [AI privacy](../docs/AI_PRIVACY.md) and [Troubleshooting](../docs/TROUBLESHOOTING.md).
 
 For field-by-field settings and save/test instructions, read [Integration Configuration](INTEGRATION_CONFIGURATION.md).
+
+For the generated forwarder deployment workflow, see the [Wazuh Setup Wizard guide](WAZUH_SETUP_WIZARD.md).

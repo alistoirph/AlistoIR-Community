@@ -14,6 +14,7 @@ This repository provides the installer download, documentation, and issue tracki
   - [All documentation guides](documentation/README.md)
   - [Integrations overview](documentation/INTEGRATIONS.md)
   - [Integration Configuration](documentation/INTEGRATION_CONFIGURATION.md)
+  - [Wazuh Setup Wizard](documentation/WAZUH_SETUP_WIZARD.md)
 - [Start here](#start-here)
 - [Included capabilities](#included-capabilities)
 - [Community limits](#community-limits)

@@ -146,3 +146,5 @@ Check each result separately:
 No synthetic alert, archive enablement, endpoint-response policy change or AI enablement is performed automatically by this installer.
 
 You can revoke a generated bundle key from Wazuh Setup. This stops that bundle's forwarding; confirm the intended replacement is ready first. API/Indexer credentials and previously deployed keys are not automatically rotated.
+
+For every wizard control, readiness indicator and bundle-key lifecycle, see the [Wazuh Setup Wizard guide](../documentation/WAZUH_SETUP_WIZARD.md).
