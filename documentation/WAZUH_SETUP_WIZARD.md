@@ -8,6 +8,7 @@ The wizard prepares Wazuh alert forwarding using saved connection settings and a
 
 ## Table of contents
 
+- [Wizard screenshot](#wizard-screenshot)
 - [1. Before you start](#1-before-you-start)
 - [2. Save your Wazuh connection](#2-save-your-wazuh-connection)
 - [3. Configure public CA certificates](#3-configure-public-ca-certificates)
@@ -21,6 +22,12 @@ The wizard prepares Wazuh alert forwarding using saved connection settings and a
 - [11. Troubleshooting](#11-troubleshooting)
 
 <!-- toc:end -->
+
+## Wizard screenshot
+
+![Wazuh Integration Setup wizard](../docs/images/source/Wazuh-Integration-Setup.png)
+
+The supplied screenshot shows failed API/Indexer connection tests. These illustrate the displayed failure states, not a completed connection setup. Follow [Test API and evidence access](#4-test-api-and-evidence-access) to validate your own deployment.
 
 ## 1. Before you start
 

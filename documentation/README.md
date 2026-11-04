@@ -14,6 +14,7 @@ Start with [Installation](../docs/INSTALLATION.md) for a new deployment, or [Inv
   - [Integrations](INTEGRATIONS.md)
   - [Integration Configuration](INTEGRATION_CONFIGURATION.md)
   - [Wazuh Setup Wizard](WAZUH_SETUP_WIZARD.md)
+    - [Wizard screenshot](WAZUH_SETUP_WIZARD.md#wizard-screenshot)
   - [Wazuh setup](../docs/WAZUH_SETUP.md)
   - [Acceptance checks](../docs/TESTING.md)
 - [Alerts and investigations](#alerts-and-investigations)
